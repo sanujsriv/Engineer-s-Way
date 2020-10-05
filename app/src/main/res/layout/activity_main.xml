@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.androiyd.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/container_main"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.hp_2000.engineer_way_02.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/cont_main">
+
+
+
+    <LinearLayout
+        android:background="#2f2f2f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpager">
+        </android.support.v4.view.ViewPager>
+
+        <!--<ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/image"
+            />-->
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2f2f2f"
+       android:layout_weight="1"
+        android:orientation="vertical"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.7"
+            android:background="#808080">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:background="#808080"
+                    android:drawableTint="#fff"
+                    android:drawableTop="@drawable/ic_start"
+                    android:gravity="bottom|center"
+                    android:onClick="fun_lets_start"
+                    android:text="Let's Start"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:background="#808080"
+                    android:drawableTint="#fff"
+                    android:drawableTop="@drawable/ic_drive"
+                    android:textColor="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:onClick="fun_mydrive"
+                    android:gravity="bottom|center"
+                    android:text="My Drive"
+                    android:textAllCaps="false"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#808080"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:background="#808080"
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:text="Tools"
+                    android:gravity="bottom|center"
+                    android:onClick="fun_tool"
+                    android:textAllCaps="false"
+                    android:textSize="25sp"
+                    android:drawableTint="#fff"
+                    android:drawableTop="@drawable/ic_tool"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:background="#808080"
+                    android:drawableTint="#fff"
+                    android:drawableTop="@drawable/ic_query"
+                    android:gravity="bottom|center"
+                    android:onClick="fun_query"
+                    android:text="Query"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#2f2f2f">
+
+            <Button
+                android:textColor="#fff"
+                android:background="#808080"
+                android:drawableTop="@drawable/ic_face"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:text="About Us"
+                android:drawableTint="#fff"
+                android:gravity="bottom|center"
+                android:onClick="fun_about"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+
+</LinearLayout>

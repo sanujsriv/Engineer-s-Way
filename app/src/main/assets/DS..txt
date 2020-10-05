@@ -1,0 +1,181 @@
+﻿DATA STRUCTURE USING ‘C’ QUESTION BANK
+UNIT-1
+Q.1What is a data structure? 
+Q.2What does abstract data type means?                                                   Q.3Explain about the types of linked lists 
+Q.4 Write an algorithm to merge two sorted arrays into a third array. Do not sort                                    the third array.  
+Q.5Write the programs for Linked List (Insertion and Deletion) operations 
+Q.6What data structure would you mostly likely see in a non recursive implementation of a recursive algorithm?                                                        Q.7List out the areas in which data structures are applied extensively?                 Q.8If you are using C language to implement the heterogeneous linked list, what pointer type will you use?                                                                                Q.9What is the data structures used to perform recursion?                            Q.10What are the disadvantages array implementations of linked list? Q.11Whether Linked List is linear or Non-linear data structure?                        Q.12 Explain what the effect will be if both continuous linked versions of sequential search have only one item in the list and when the list is empty.          Q.13A two dimensional array TABLE [6] [8] is stored in row major order with base address 351. What is the address of TABLE [3] [4]?                                           Q.14 What is the difference between a grounded header link list and a circular header link list?                                                                                                     Q.15What is the following code segment doing?
+void fn( ){
+char c;
+cin.get(c);
+if (c != ‘\n’) {
+fn( );
+cout.put(c);
+}
+}
+Q.16What values are automatically assigned to those array elements which are not explicitly initialized?
+Q.17 Explain the method to calculate the address of an element in an array. A
+25*4 matrix array DATA is stored in memory in ‘row-major order’. If base
+address is 200 and 4 words per memory cell. Calculate the address of
+DATA [12, 3]                                                                                                   Q.18How do you find the complexity of an algorithm? What is the relation between the time and space complexities of an algorithm? Justify your answer with an example.                                                                                                        Q.19Compare two functions n2 and 2 4 n for various values of n. Determine when second becomes larger than first.                                                                        Q.20Explain an efficient way of storing a sparse matrix in memory. Write a module to find the transpose of a sparse matrix stored in this way.                    Q.21Explain an efficient way of storing two symmetric matrices of the same order in memory.                                                                                                               Q.22What is the difference between a Stack and an Array?                                         Q.23Two linked lists contain information of the same type in ascending order. Write a module to merge them to a single linked list that is sorted.                                 Q.24 Define the term array. How are two-dimensional arrays represented in memory? Explain how address of an element is calculated in a two dimensional array.                                                                                                                           Q.25 An, array, A contains n unique integers from the range x to y (x and y inclusive where n=y-x). That is, there is one member that is not in A. Design an O(n) time algorithm for finding that number.
+UNIT- 2
+
+Q.1Evaluate the following prefix expression " ++ 26 + - 1324" (Similar types can be asked) .
+Q.2Convert the following infix expression to post fix notation ((a+2)*(b+4)) -1 (Similar types can be asked) .
+Q.3How is it possible to insert different type of elements in stack? 
+Q.4 Stack can be described as a pointer. Explain. 
+Q.5  Which data structure is needed to convert infix notations to post fix notations? Q.6 Parenthesis are never needed in prefix or postfix expressions. Why?              Q.7 Minimum number of queues needed to implement the priority queue?                     Q.8 Write an algorithm to evaluate a postfix expression. Execute your algorithm using the following postfix expression as your input : a b + c d +*f .                           Q.9 What are circular queues? Write down routines for inserting and deleting
+elements from a circular queue implemented using arrays.                                             Q.10 In which data structure, elements can be added or removed at either end, but not in the middle?                                                                                                            Q.11 What are the methods available in storing sequential files ?                                       Q.12 A stack is to be implemented using an array. The associated declarations are:
+int stack [100];
+int top = 0;
+Q.13 Give the statement to perform push operation.                                                      Q.14 Implement a Queue using a singly linked list L. The operations INSERT and DELETE should still take O (1) time.                                                                   Q.15 Explain how to implement two stacks in one array A[1..n] in such a way that neither stack overflows unless the total number of elements in both stacks together is n. The PUSH and POP operations should run in O(1) time.                                  Q.16 Draw the expression tree of the following infix expression. Convert it in to Prefix and Postfix expressions. a bc * d ef * g h.                                                              Q.17 What do you mean by Base case, Recursive case, Binding Time, Run-Time Stack and Tail Recursion?                                                                                                 Q.18 Assume that a queue is available for pushing and popping elements. Given an input sequence a,b, c, (c be the first element), give the output sequence of elements if the rightmost element given above is the first to be popped from the queue.           Q.19 Write an algorithm for finding solution to the Tower’s of Hanoi problem. Explain the working of your algorithm (with 4 disks) with diagrams.                             Q.20 Reverse the order of elements on a stack S
+(i) using two additional stacks.
+(ii) using one additional queue.                                                                                       Q.21 Convert the following infix expressions into its equivalent postfix expressions;
+(i) A+B-D/E −F+G
+(ii) A*BD/ E −F*G H K                                                                                                Q.22 Write an algorithm INSERT that takes a pointer to a sorted list and a pointer to a node and inserts the node into its correct position in the list.                                    Q.23 Let P be a pointer to a singly linked list. Show how this list may be used as a stack. That is, write algorithms to push and pop elements. Specify the value of P when the stack is empty.
+
+Q.24 Devise a representation for a list where insertions and deletions can be made at either end. Such a structure is called Deque (Double ended queue). Write
+functions for inserting and deleting at either end.                                                 Q.25 Execute your algorithm to convert an infix expression to a post fix expression with the following infix expression as input A+B-C/D*E*F*G/H  .                                                                  
+
+
+UNIT-3
+
+Q.1  Given a set of input representing the nodes of a binary tree, write a non
+recursive algorithm that must be able to output the three traversal orders.
+Write an algorithm for checking validity of the input, i.e., the program must
+know if the input is disjoint, duplicated and has a loop.                                               Q.2 What is a Binary Search Tree (BST)? Make a BST for the following sequence of numbers 45, 36, 76, 23, 89, 115, 98, 39, 41, 56, 69, 48                                                 Traverse the tree in Preorder, Inorder and postorder.                                                           Q.3 Two Binary Trees are similar if they are both empty or if they are both nonempty and left and right sub trees are similar. Write an algorithm to determine if two Binary Trees are similar.                                                                                          Q.4 The degree of a node is the number of children it has. Show that in any binary tree, the number of leaves are one more than the number of nodes of degree 2 .                Q.5 Taking a suitable example explains how a general tree can be represented as a Binary Tree.                                                                                                                         Q.6  What is the maximum total number of nodes in a tree that has N levels? Note that the root is level (zero).                                                                                                  Q.7 Write the non-recursive algorithm to traverse a tree in preorder.                                 Q.8 Write a Binary Search program.                                                                                   Q.9 What are expression trees? Represent the following expression using a tree. Comment on the result that you get when this tree is traversed in Preorder, Inorder and postorder. (a-b) / ((c*d)+e).                                                                                      Q.10  How do you rotate a Binary Tree? Explain right and left rotations with the help of an example.
+Q.11  Taking a suitable example explains how a general tree can be represented as a Binary Tree.
+Q.12  How many different binary trees and binary search trees can be made from three nodes that contain the key values 1, 2 & 3? 
+Q.13  How will inorder, preorder and postorder traversals print the elements of a tree?                                                                                                                                Q.14  Which one is faster? A binary search of an orderd set of elements in an array or a sequential search of the elements.                                                                              Q.15  Write a non recursive algorithm to traverse a binary tree in inorder.                      Q16 Construct a binary tree whose nodes in inorder and preorder are given as follows:  Inorder : 10, 15, 17, 18, 20, 25, 30, 35, 38, 40, 50                                                        Preorder: 20, 15, 10, 18, 17, 30, 25, 40, 35, 38, 50                                                             Q.17  Given the following inorder and preorder traversal reconstruct a binary tree Inorder sequence D, G, B, H, E, A, F, I, C                                                                     Preorder sequence A, B, D, G, E, H, C, F, I                                                                       Q.18  Make a BST for the following sequence of numbers. 45,32,90,34,68,72,15,24,30,66,11,50,10 Traverse the BST created in Preorder,         Inorder and Postorder.                                                                                                       Q.19  What is a Binary Tree? What is the maximum number of nodes possible in a Binary Tree of depth d. Explain the following terms with respect to Binary trees (i) Strictly Binary Tree (ii) Complete Binary Tree (iii) Almost Complete Binary Tree.  Q.20 Construct a complete binary tree with depth 3 for this tree which is maintained in memory using linked representation. Make the adjacency list and adjacency matrix for this tree.                                                                                              Q.21 Prove the hypothesis that “A tree having ‘m’ nodes has exactly (m–1) edges or branches”.                                                                                                                      Q.22 Construct the binary tree for the following sequence of nodes in preorder and  inorder respectively.                                                                                                        Preorder : G, B, Q, A, C, K, F, P, D, E, R, H                                                                 Inorder: Q, B, K, C, F, A, G, P, E, D, H, R                                                                      Q.23  What is a height balanced tree? Explain how the height is balanced after       addition/deletion of nodes in it?                                                                                            Q.24  Let a binary tree ‘T’ be in memory. Write a procedure to delete all terminal nodes of the tree.
+Q.25  Consider the following eight numbers 50, 33, 44, 22, 77, 35, 60 and 40. Display the construction of the binary by inserting the above numbers in the given order.
+
+                                                             UNIT-4
+
+Q.1 Draw the complete undirected graphs on one, two, three, four and five
+vertices. Prove that the number of edges in an n vertex complete graph is
+n(n-1)/2.
+
+Q.2 Draw the complete undirected graphs on one, two, three, four and five
+vertices. Prove that the number of edges in an n vertex complete graph is
+n(n-1)/2.
+
+Q.3 What are the different ways of representing a graph? Represent the following
+graph using those ways.
+Q.4 What are the different ways of representing a graph? Represent the following
+graph using those ways.
+Q.5 Write an algorithm which does depth first search through an un-weighted
+connected graph. In an un-weighted graph, would breadth first search or depth
+first search or neither find a shortest path tree from some node? Why?
+Q.6 Which are the two standard ways of traversing a graph? Explain them with an
+example of each.
+Q.7 Consider the following specification of a graph G
+VG1,2,3,4
+EG1,2, 1,3, 3,3, 3,4, 4,1
+(i) Draw an undirected graph.
+(ii) Draw its adjacency matrix.
+Q.8 Explain Dijkstra’s algorithm for finding the shortest path in a given graph.
+Q.9 What do you understand by tree traversal? Write a procedure for traversing a
+binary tree in preorder .
+Q.10 How memory is freed using Boundary tag method in the context of Dynamic
+memory management?
+Q.11 Write short notes on the following:
+(i) Threaded binary trees.
+(ii) Graph traversal.
+(iii) Conversion of forest into tree.
+Q.12 What do you understand by structured programming? Explain.
+Q.13 Write an algorithm to sort a given list using Quick sort method. Describe the
+behaviour of Quick sort when input is already sorted.
+Q.14 Sort the following list using Heap Sort
+66, 33, 40, 20, 50, 88, 60, 11, 77, 30, 45, 65.
+Q.15 Define graph, adjacency matrix, adjacency list, hash function, sparse matrix,
+reachability matrix.
+Q.16 Explain various graph traversal schemes and write their merits and demerits.
+Q.17Which sorting algorithm is easily adaptable to singly linked lists? Explain
+your answer.
+Q.18 What do you mean by complexity of an algorithm? Explain the meaning of
+worst case analysis and best case analysis with an example..
+Q.19Write an algorithm to insert a node in the beginning of the linked list.
+Q.20Write a complete programme in C to create a single linked list. Write
+functions to do the following operations
+(i) Insert a new node at the end
+(ii) Delete the first node
+Q.21Define a sparse metrics. Explain the representation of a 4X4 matrix using
+linked list.
+Q.22Define data type and abstract data type. Comment upon the significance of
+both.
+Q.23Write a procedure to reverse a singly linked list.
+Q.24Enumerate various operations possible on ordered lists and arrays. Write
+procedures to insert and delete an element in to array.
+Q.25By taking an example show how multidimensional array can be represented inone dimensional array.
+
+UNIT-5
+
+Q.1Bubble sort algorithm is inefficient because it continues execution even after
+an array is sorted by performing unnecessary comparisons. Therefore, the
+number of comparisons in the best and worst cases are the same. Modify the
+algorithm in such a fashion that it will not make the next pass when the array
+is already sorted.
+
+Q.2 What are B-trees? Construct a B-Tree of order 3 for the following set of
+Input data: 69, 19, 43, 16, 25, 40, 132, 100, 145, 7, 15, 18.
+
+Q.3 Draw the 11 item hash table resulting from hashing the keys: 12, 44, 13, 88,
+23, 94, 11, 39, 20, 16 and 5 using the hash function h(i) = (2i+5) mod 11.
+
+Q.4 What is the average number of comparisons in a sequential search?
+Q.5 1 Sort the following list using Heap Sort technique, displaying each step.
+20, 12, 25 6, 10, 15, 13
+Q.6 When will you sort an array of pointers to list elements, rather than sorting the elements themselves? 
+Q.7 The element being searched for is not found in an array of 100 elements. What is the average number of comparisons needed in a sequential search to determine that the element is not there, if the elements are completely unordered? 
+Q.8 Show the result of inserting the keys.
+F, S, Q, K, C, L, H, T, V, W, M, R, N , P, A, B, X, Y, D, Z, E in the order to
+an empty B-tree of degree-3.
+Q.9 What do you mean by hash clash? Explain in detail any one method to resolve
+hash collisions.
+
+ Q.10 Define Hashing. How do collisions happen during hashing? Explain the
+different techniques resolving of collision.
+
+Q.11  Write short notes on any FOUR:-
+(i) B Tree.
+(ii) Time Complexity, Big O notation.
+(iii) Merge Sort.
+(iv) Threaded Binary Tree.
+(v) Depth First Traversal
+Q.12 Which sorting algorithm is best if the list is already sorted? Why?
+Q.13 Sort the following sequence of keys using merge sort.
+66, 77, 11, 88, 99, 22, 33, 44, 55
+Q.14 Draw a B-tree of order 3 for the following sequence of keys:
+2, 4, 9, 8, 7, 6, 3, 1, 5, 10
+Q.15 What is quick sort? Sort the following array using quick sort method.
+24 56 47 35 10 90 82 31
+Q.16 How many key comparisons and assignments an insertion sort makes in its
+worst case?
+Q.17 Create a heap with following list of keys:
+8, 20, 9, 4, 15, 10, 7, 22, 3, 12
+Q.18 The following values are to be stored in a hash table
+25, 42, 96, 101, 102, 162, 197
+Describe how the values are hashed by using division method of hashing with
+a table size of 7. Use chaining as the method of collision resolution.
+Q.19 Describe insertion sort with a proper algorithm. What is the complexity of
+insertion sort in the worst case?
+Q.20Write short notes on the following:
+(i) B-tree.
+(ii) Abstract data type.
+(iii) Simulation of queues.
+Q.21 Why do we use a symptotic notation in the study of algorithm? Describe
+commonly used asymptotic notations and give their significance.
+Q.22 How will you represent a max-heap sequentially? Explain with an example.
+Q.23 Write an algorithm to insert an element to a max-heap that is represented
+sequentially.
+Q.24 What do you mean by hashing? Explain any five popular hash functions.
+Q.25 What is the best case complexity of quick sort and outline why it is so. How
+could its worst case behaviour arise?
+
+
+
+
+
+
+
+

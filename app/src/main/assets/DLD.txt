@@ -1,0 +1,265 @@
+﻿QUESTION BANK
+SUBJECT CODE & NAME: NEC-309 & DIGITAL LOGIC DESIGN
+IIIrd Sem / 2nd Year B.Tech (C.S.E)
+
+UNIT I
+
+NUMBER SYSTEM & BOOLEAN ALGEBRA
+
+
+1. Determine the decimal value of the fractional binary number 0.1011.
+
+2. Perform 2’s complement subtraction of 010110-100101.
+
+3. Convert (53) 10 to EX-3 code.
+
+4. Why digital circuits are more frequently constructed with NAND or NOR gates than       
+    with AND & OR gates .
+
+5. Convert 110011 into hexadecimal through octal.
+
+6. What is variable mapping?
+
+7. What is the feature of gray code?
+
+8. Name the two canonical forms for Boolean algebra.
+
+9. What is the BCD equivalent for the gray code 1110? 
+
+10. Obtain the minimum sop using QUINE- McCLUSKY method and verify using K-map
+          F=m0+m2+m4+m8+m9+m10+m11+m12+m13. 
+
+11. Reduce the following using tabulation method.
+         F=m2+m3+m4+m6+m7+m9+m11+m13. 
+
+12. Reduce the Boolean function using k-map technique and implement using gates 
+          f (w, x, y,z)= ∑m (0,1,4,8,9,10) which has the don’t cares condition 
+          d (w, x, y, z)= ∑ m (2,11).
+
+13. Find the minimum SOP expression using K-map for the function 
+          f= ∑m (7, 9, 10, 11, 12, 13, 14, 15) and realize the minimized function using only         
+          NAND gates.
+
+15.  Expand the following Boolean expression  to minterms and maxterms       
+           A+BC’+ABD’+ABCD 
+    
+16 .Prove the following (A+B) ((AC)’+C) (B’+AC)’=A’B. 
+17. 2 x 101 + 8 x 100 is equal to
+        (a) 10 (b) 280 (c) 2.8 (d) 28
+18. The binary number 1101 is equal to the decimal number
+        (a) 13 (b) 49 (c) 11 (d) 3
+19. The decimal 17 is equal to the binary number
+        (a) 10010 (b) 11000 (c) 10001 (d) 01001
+20. The sum of 11010 + 01111 equals
+        (a) 101001 (b) 101010 (c) 110101 (d) 101000
+21. The difference of 110 – 010 equals
+        (a) 001 (b) 010 (c) 101 (d) 100
+22. The 1’s complement of 10111001 is
+        (a) 01000111 (b) 01000110 (c) 11000110 (d) 10101010
+23. The 2’s complement of 11001000 is
+      (a) 00110111 (b) 00110001 (c) 01001000 (d) 00111000
+24. The binary number 101100111001010100001 can be written in octal as
+       (a) 54712308 (b) 54712418(c) 26345218 (d) 231625018
+25. The binary number 10001101010001101111 can be written in hexadecimal as
+        (a)AD46716 (b) 8C46F16 (c) 8D46F16 (d) AE46F16
+26. The BCD number for decimal 473 is
+        (a) 111011010 (b) 1110111110101001 (c) 010001110011 (d) 010011110011
+27. An inverter performs an operation known as
+     (a) Complementation (b) assertion
+     (c) Inversion (d) both answers (a) and (c)
+28.The output of gate is LOW when at least one of its inputs is HIGH. It is    true for
+     (a) AND (b) NAND (c) OR (d) NOR
+29.The output of gate is HIGH when at least one of its inputs is LOW. It is true for
+     (a) AND (b) OR (c) NAND (d) NOR
+30.The output of a gate is HIGH if and only if all its inputs are HIGH. It is true for
+     (a)XOR (b) AND (c) OR (d) NAND
+31. The output of a gate is LOW if and only if all its inputs are HIGH. It is true for
+    (a)AND (b) XNOR (c) NOR (d) NAND
+32.Which of the following gates cannot be used as an inverter?
+    (a)NAND (b) AND (c) NOR (d) None of the above
+33 .The complement of a variable is always
+    (a) 0 (b) 1 (c) equal to the variable (d) the inverse of the variable
+34.Which one of the following is not a valid rule of Boolean algebra?
+    (a) A + 1 = 1 (b) A = Ā (c) A.A = A (d) A + 0 = A
+35. Which of the following rules states that if one input of an AND gate is always 1 ,the output is equal to the other input ?
+(a) A + 1 = 1 (b) A + A = A (c) A.A = A (d) A . 1 = A
+
+
+
+
+
+
+
+
+
+
+UNIT II
+
+COMBINATIONAL CIRCUITS
+
+1. For the given function, write the Boolean expression in product of maxterm form
+       f(a,b,c)= ∑m(2,3,5,6,7).? 
+2. What is a data selector? 
+3. Mention the uses of decoders. 
+4. What is a priority encoder? 
+5. Write the logic equation and draw the internal logic diagram for a 4 to 1 mux? 
+6. Expand the function f (A, B, C) =A +B’C to standard SOP form? 
+7. Using k-map find minimum sop for the function.
+          F (a, b, c) = ∑ m (0, 1, 5, 6, 7) 
+8. Implement the given function in 4:1 mux f= ∑m(0,1,3,5,6) 
+9. Design a half adder? 
+10. Draw a combinational logic circuit, which can compare whether two bits binary
+      numbers are same or not? 
+11 . Design a half adder using NAND – NAND logic
+12 . Design a 2-bit magnitude comparator? 
+13 Using 8 to 1mux, realize the Boolean function 
+        T=F (w, x, y, z)= ∑ m (0,1,2,4,5,7,8,9,12,13)
+14.  Design an 8421 to gray code converter. 
+15. Implement the Boolean function using 8:1 mux. 
+       F (A, B, C, D) =A’BD’+ACD+B’CD+A’C’D.
+16.  Explain the operation of 4 to 10 decoder. 
+17.  Implement the following multiple output combinational logic circuit using a 3-to8   
+        decoder.
+         F1=∑ m (1, 2, 3, 5, 7)
+         F2=∑ m (0, 3, 6)
+         F3=∑ m (0, 2, 4, 6) 
+18. Design a 4-bit adder /subtractor-using logic gates and explains its operation. 
+19. Construct a combinational circuit to convert BCD to EX-3 code. 
+20 . Design A Full Adder And A Full Subtractor. 
+21.  Design A Full subtractor with using two half subtractor.
+22. Design A Full Adder with using two half adder .
+23. Design A Full Adder circuit  with using two half adder circuit  .
+24. Design A Full subtractor circuit  with using two half subtractor circuit.
+25. Implement the given function in 4:1 mux f= ∑m(0,1,3,5,8)
+26. Design a half adder using NAND – NAND logic. 
+27. Explain how a full adder can be built using two half adders.
+28. Design a half adder using at most three NOR gates. 
+29. Using 8 to 1 multiplexer, realize the Boolean function
+      T = f(w, x, y, z) = Σ(0,1,2,4,5,7,8,9,12,13) 
+30. Design a 8421 to gray code converter. 
+31. Draw the logic diagram of full subtractor and explain its operation. 
+32. Draw the circuit diagram of NMOS NAND gate and explain its operation. 
+33. a) Design a full adder circuit using only NOR gates.
+      b) Draw the circuit of a CMOS two inputs NAND gate .
+
+UNIT – III
+1. Explain ROM.
+2. What are the types of ROM?
+3. What is programmable logic array? How it differs from ROM?
+4. What is mask - programmable?
+5. What is field programmable logic array(PLA)?
+6. List the major differences between PLA and PAL
+7. Why the input variables to a PAL are buffered
+8. Why RAMs are called as Volatile?
+9. Define RAM.
+10. List the two categories of RAMs.
+11. Define Static RAM and dynamic RAM
+12. Define a bus.
+13. Define Cache memory.
+14. Give the feature of flash memory.
+15. What are Flash memories?
+16. What is a FIFO memory?
+17. What is programmable logic array? How it differs from ROM?
+18. Give the comparison between PROM and PLA.
+19 Classify the logic family by operation?
+20   a) Explain the operation of bipolar Ram cell with suitable diagram.
+        b) Explain the different types of ROM.
+21. What is Ram? Explain the different types of RAM in detail. 
+22. Define RTL with its operations.
+23. Explain ASM Chart with an example.
+UNIT IV
+
+SYNCHRONOUS SEQUENTIAL CIRCUITS
+
+1. What are the classifications of sequential circuits?
+2. Define Flip flop.
+3. What are the different types of flip-flop?
+4. What is the operation of RS flip-flop?
+5. What is the operation of SR flip-flop?
+6. What is the operation of D flip-flop?
+7. What is the operation of JK flip-flop?
+8. What is the operation of T flip-flop?
+9. Define race around condition.
+10. What is edge-triggered flip-flop?
+11. What is a master-slave flip-flop?
+12. Define skew and clock skew.
+13. What are the different types of shift type?
+14. Explain the flip-flop excitation tables for T flip-flop
+15. Define sequential circuit?
+16. Give the comparison between combinational circuits and sequential circuits.
+17. What do you mean by present state?
+18. What do you mean by next state?
+19. State the types of sequential circuits?
+20. What are the types of shift register? 
+21) i) Realize a JK flip flop using SR flip flop. 
+    ii) Realize a SR flip flop using NAND gates and explain its operation. 
+22) Explain various steps in the analysis of synchronous sequential circuits
+     with suitable example. 
+23) i) Distinguish between a combinational logic circuit and a sequential logic circuit.
+     ii) Derive the characteristic equation of SR flip flop T1 PG 257. 
+     iii) Using a JK flip flop, explain how a D flip flop can be obtained. 
+24) Design a four state down counter using T flip flop. 
+25) Design a 4-bit synchronous 8421 decade counter with ripple carry. 
+26) Design a synchronous 3-bit gray code up counter with the help of excitation table. 
+27) Describe the input and output action of JK master/slave flip flops. 
+28) D(16esign a MOD-10 synchronous counter using JK flip flops
+29) Realize SR neither flip flop using NOR gates and explain its operation. 
+30) a) Design a 3-bit binary up-down counter. 
+                                                   UNIT-V
+
+ASYNCHRONOUS SEQUENCTIAL CIRCUIT
+1) Define asynchronous sequential circuit?
+2) Give the comparison between synchronous & asynchronous sequential circuits?
+3) What are the steps for the design of asynchronous sequential circuit?
+4) What is fundamental mode sequential circuit?
+5) What are pulse mode circuits?
+6) What is the significance of state assignment?
+7) When does race condition occur?
+8) What are the different techniques used in state assignment?
+9) What are the steps for the design of asynchronous sequential circuit?
+10) What is hazard?
+11) What is static 1 hazard?
+12) What are static 0 hazards?
+13) What is dynamic hazard?
+14) What is the cause for essential hazards?
+15) What is primitive flow chart?
+16) What is combinational circuit?
+17) What is state equivalence theorem?
+18) What do you mean by distinguishing sequences?
+19) Prove that the equivalence partition is unique
+20) Define compatibility.
+21) Define merger graph. 
+22) Explain with neat diagram the different hazards and the  way to eliminate them.
+23) State with a neat example the method for the minimization of primitive flow table. 
+24) a) Explain in detail about Races. 
+      b) Explain the different methods of state assignment . 
+25) a) Explain the fundamental mode asynchronous sequential circuit. 
+      b) Briefly explain the pulse mode asynchronous sequential circuit. 
+26) What are the steps in the analysis and design of asynchronous sequential circuits? 
+       Explain with an example. 
+27) Find a circuit that has no static hazards and implements the
+       Boolean function F(A,B,C,D) = Σ (0,2,6,7,8,,10,12) . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

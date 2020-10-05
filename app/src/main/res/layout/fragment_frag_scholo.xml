@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_2000.engineer_way_02.Frag_scholo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:textSize="25sp"
+        android:text="Scholarship Related FAQs  :-"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="#80808080"
+            android:text="@string/Scholorship_question_1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="@string/Scholorship_A_1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="#80808080"
+            android:text="@string/Scholorship_question_2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="@string/Scholorship_A_2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="#80808080"
+            android:text="@string/Scholorship_question_3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="@string/Scholorship_A_3"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

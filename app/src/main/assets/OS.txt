@@ -1,0 +1,209 @@
+﻿
+Computer Science and Engineering
+2012-13
+Operating System Question Bank
+
+1. Define Operating System by User’s point of view.
+2. Define Operating System by System’s point of view.
+3. What is virtual memory?
+4. What is DRAM? In which form does it store data?
+5. Explain Evolution of Operating System.
+6. How system protection is performed?
+7. Explain the layered structure of an operating system by giving typical operations and the objects that are operated in each layer.
+8. What is multiprogramming? State objective of multiprogramming Enlist and explain in brief various multiprogrammed operating system.
+9. Define a file system. What are various components of a file system? State and explain commonly used operations on file.
+10. Draw and explain Layered File System.
+11. Explain advantages and disadvantages of following file allocation methods:-
+a) Contiguous Allocation
+b) Linked Allocation
+c) Indexed Allocation
+12. What is disk scheduling? Explain the following types of disk scheduling by giving an example:-
+a) SSTF Scheduling
+b) C-SCAN Scheduling
+13. Explain the concept of Process. Draw a process transition diagram and explain the various process states.
+14. State and explain various scheduling criteria. Explain the following scheduling Algorithms by giving an example:
+a) Shortest Job First Scheduling
+b) Priority scheduling
+15. What is Convoy Effect?
+16. Discuss user mose and kernel mode.
+17. Explain the differences between Preemptive and non-preemptive scheduling.
+18. Discuss the roles of short term, medium term and long term schedulers.
+19. Explain threads. Differentiate between heavyweight and lightweight processes.
+20. What is meant by Process Control Block? Draw and explain different fields of PCB.
+21. Explain Context Switch by giving an example.
+22. State and explain various memory management techniques.
+23. What are co-operating processes? Discuss reasons behind using co-operating processes along with the concept of interprocess communication (explain direct and indirect communications).
+24. What are the advantages of OS portability from the point of view of
+a) Component Manufacturer
+b) Independent Software vendors
+c) Programmers
+d) Users ?
+25. Discuss Producer / Consumer Problem.
+26. Write a short note on the solution to Producer / Consumer Problem.
+27. Write the differences between Independent and Co-operating processes.
+28. Define problems of Critical Section.
+29. “Process alternate between CPU execution and I/O wait”, elaborate this statement. 
+30. Explain process creation and termination in detail.
+31. Discuss the main difficulties in writing an OS for a real time environment.
+32. Explain Distributed System.
+33. Explain various methods for disk allocation.
+34. What are the advantages and disadvantages of indexed allocation scheme?
+35. Suppose the head of moving-head disk with 200 tracks, numbered 0 to 199 is
+currently serving a request at track 143 and has just finished a request at track 125. if the queue of requests is kept in the FIFO order
+86, 147, 91, 177, 94, 150, 100, 175, 130
+What is total head movement to satisfy these requests for the following disk scheduling algorithms?
+a) FCFS
+b) SSTF
+c) C-SCAN
+36. Which algorithm will be used for CPU scheduling in:
+a) Batch OS
+b) Interactive OS
+c) Real time OS? Why?
+37. What is a dispatcher? What are its functions?
+38. What is dispatch latency in soft real time systems?
+39. Discuss the disadvantages od FCFS as compared to SJF scheduling algorithm.
+40. State whether following are true or false with justification:
+a) Multitasking is a kind of multiprogramming.
+b) Multi-user system does not imply multiprogramming.
+c) Response times are more predictable in preemptive system than in nonpreemptive system.
+
+41. What is Shortest job first scheduling. Find out the thoughput, average waiting time and          turn around times for each processes for the given process system using non-preemptive SJF.
+                         Process    CPU burst  
+                            P1              6
+                            P2              8
+                            P3              7
+                               P4              3
+
+42. Assume that following jobs have arrived in the order 1,2,3,4 and 5:
+JobArrival TimeBurst TimePriority1015222313555468457123
+43. Give Gantt chart and calculate Avg. Turnaround Time and Waiting Time for:
+a) FCFS
+b) SRTF and Preemptive priority algorithm
+44. Define the essential properties of following OS with its advantages and disadvantages.
+a) Distributed
+b) Real Time
+c) Time sharing
+45. What is the purpose of Command line interpreter? Why is it usually separated from kernel?
+46. What is the purpose of system call?
+47. What are the differences between user level threads and kernel level threads? Under what circumstances one is better than other?
+48. Consider the following set of process with the length of CPU burst time in
+milliseconds:-
+
+
+ProcessBurst TimePriorityP173P292P321P414P535
+49. The processes are assumed to have arrived in the order P1, P2, P3, P4, P5 and all at time 0.
+A) Draw Gantt chart, illustrating the execution of these processes using FCFS, SJF, preemptive priority and RR (quantum = 1) scheduling.
+b) What is turnaround time of each process for each of the following scheduling algorithm in Part A?
+c) What is the waiting time for each process for each of the scheduling algorithms in Part A?
+d) Which of the schedule in Part A, results in the minimal average waiting time(overall process)?
+50. Explain the following:-
+a) Disk Caching
+b) Sector queuing
+51. What are different space allocation strategies?
+52. Describe the difference between following:-
+a) Symmetric and A-symmetric Multiprocessing
+     b)Time sharing and real time OS
+53. What problems could occur of system allowed a file system to be mounted
+Simultaneously at more than one location. Differentiate between Process and threads.
+54. A hard disk has 63 sectors per tracks, 10 platters each with 2 recording surfaces and 1000 cylinders. The address of a sector is given as a triple <c,h,s> where c is The cylinder number ,h is the surface number and s is the sector number. Thus 0th sector is addressed as <0,0,0>, the 1st sector is addressed as <0,0,1> and so on. Calculate the address of 1050th sector.
+55. A hard disk has 63 sectors per tracks, 10 platters each with 2 recording surfaces and 1000 cylinders. The address of a sector is given as a triple <c,h,s> where c is the cylinder number ,h is the surface number and s is the sector number. Thus 0th sector is addressed as <0,0,0>, the 1st sector is addressed as <0,0,1> and so on. Calculate the sector number whose address is <400, 16, 29>.
+56. What are the services provided by OS?
+57. What do you mean by Zombie state of a process?
+58. Give difference between Multilevel and Multilevel feedback queue.
+59. Write a program for creation of child process.
+60. What is blocked suspended and ready suspended state of a process?
+61. What are privileged instructions? Which of the following instructions are privileged?
+a) Set the value of timer
+b) Read the clock
+c) Clear the memory
+d) Turn off interrupts
+e) Switch from user to monitor mode
+62. Compare Linked and Indexed allocation.
+63. Describe the semaphore. How the semaphores help in the process synchronization?
+64. Describe resource allocation graph.
+65. What are monitors?
+66. Consider a system consisting of m resources of the same type being shared by n processes only one at a time. Show that the system is deadlock free if the following condition hold:
+a) The maximum need of each process is between 1 and m resources.
+b) The sum of all maximum needs is less than m + n.
+67. Consider the following snapshot of a system
+Allocation Max Available
+A B C D A B C D A B C D
+P0 0 0 1 2 0 0 1 2 1 5 2 0
+P1 1 0 0 0 1 7 5 0
+P2 1 3 5 4 2 3 5 6
+P3 0 6 3 2 0 6 5 2
+P4 0 0 1 4 0 6 5 6
+Answer the following question using the banker’s algorithm:
+What is the content of matrix “Need”?
+a) Is the System in a safe state?
+b) If a request from process P1 arrives for (0, 4, 2, 0) can the request be
+         granted immediately?
+68.  Compare the following main memory organization schemes : contiguous
+memory allocation, pure segmentation, and pure paging with respect to the
+Following issues:
+a) External fragmentation
+b) Internal fragmentation
+c) Ability to share code across processes.
+69.  List the advantages of Paging.
+70. What is compaction? How is it implemented?
+71.  Why is TLB used in paging scheme?
+72. How is sharing possible with segmentation? 
+73. What is the purpose of paging the page tables?
+74. Consider the following page reference string
+ 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 for a memory with three frames.
+How many page fault would occur for following replacement algorithm.
+i)LRU replacement
+ii) FIFO replacement
+iii) Optimal replacement.
+75.  What is thrashing? How it can be prevented?
+76.  What advantages do threads have over multiple processes? What major
+Disadvantages do they have?
+77.  Explain differences between)
+     a)Logical and physical address.
+         		b)Internal and external fragmentation.
+78.  Define critical section. What are the requirements to solve critical-section
+Problem?
+79. Write an algorithm to implement a semaphore using:-
+a) The Swap instruction
+b) The Test and set instruction.
+80. What is the race condition?
+81. Consider the following page reference string
+A,B,C,D,B,A,E,F,A,B,C,G,F,C,F. How many page faults would occur for the Following  page replacement algorithm assuming three and four frames?
+Remember all frames are initially empty:
+a) FIFO
+b) Optimal
+c) LRU
+82. Write short note on
+a) Belady’s Anomaly
+b) Thrashing
+c) Locality of references
+83. What is a page fault? How is it serviced?
+84.  Differentiate between internal and external fragmentations.
+85. How address calculation is done in segmentation?
+86. Give memory partition of 100K,500K,200K,300K and 600K(in order).How
+87. would each of the first fit, best fit and worst fit algorithm place process of
+212k,417k,112k,and 426k(in order)? Which algorithm makes the most efficient use of memory?
+88.  State and explain the necessary condition that leads to deadlock situation.
+89.  What is purpose of resource allocation graph?
+90.  Explain the combined approach to deadlock handling.
+91.  Why is it difficult to protect a system in which users are allowed to do their
+Own I/O?
+92.  Explain how relocation helps for the protection of the data.
+93.  Explain Access-list and access matrix.
+94.  What is meant by semaphore? What are the drawbacks of semaphore?
+95.  Consider the following page reference string
+4, 3, 2, 1, 4, 3, 5, 4, 3, 2, 1, 5
+Assume page framer =3, pure demand paging. How many page faults
+would occur for i) FIFO ii) LRU iii) Optimal algorithm.
+96.  When do page fault occurs? Describe the action taken by O.S. when page fault occurs.
+97.  Explain single contiguous memory management technique with advantage and disadvantages.
+98.  Explain relocatable partioned memory management technique with example.
+99. What is deadlock? What are the necessary conditions for deadlock?
+100. Explain the concept of transaction atomicity. 
+
+101. Explain the working of banker’s algorithm for deadlock avoidance                        with suitable examples.
+102.  What are the main characteristics of capability lists and access lists?        
+103. Explain cryptography in access control techniques.
+104. List the methods of deadlock recovery.
+105. How can the problem of starvation be solved?
+106. Explain the term ‘race condition’ associated with co-operating processes.

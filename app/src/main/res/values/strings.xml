@@ -1,0 +1,568 @@
+<resources>
+    <string name="app_name">Engineer\'s Way</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="Introduction"> Engineering is all about learning stuff and implementing in practical life.</string>
+    <string name="Prerequisites">This app is for people new to the world\'s tactics and have a long a to go..</string>
+
+
+    <string name="Gadget_ques_01">Q1. Confused! Which phone to buy? How can you go for the best? </string>
+    <string name="Gadget_ans_01">-  Choosing a phone becomes a hassle when we want to buy the best option available.\n
+    So what should you look for:-
+    \n&#8226; RAM - Atleast 2gb otherwise the device will lag whilst running most applications.
+    \n\t\tAlthough 3gb RAM is now preferred.
+    \n&#8226; Processor - Octa Core is always better than Quad Core as <b>8>4</b>.\nAlso <i>Snapdragon/Exynos</i> based processors are better than Mediatek.\nFrequency - as high as possible
+    \n&#8226; Camera - more <b>MPs</b> better .Depends from device to device eg. Oppo,Sony,Mi,Moto,Vivo,Samsung etc.. have much better picture quality than Intex,Micromax
+    \n&#8226; Android Operating System - Latest 8.0 followed by 7.1.2 , 7.1.1 ,...., 6.0.1,..., 5.1.1,...4.4,better to stick to the latest.
+    \n&#8226; Display Size - Should be maximum 5.5 inch. You should buy it as per your need.
+    \n&#8226; Battery - Battery capacity should be high 4,000mah>>3,000mah your phone will last more than a day with 4,000mah or above.
+    \n&#8226; Atleast one SIM  slot should support 4G VoLTE .
+    \n&#8226; Internal space should be atleast 32 gb for smooth performance and avoid sd card.
+    \n&#8226; Should support OTG .
+    \n&#8226; Hybrid slot should cause a problem if you want to use both sim cards and sd card together because there is a trade off between one SIM and one sdcard
+    \n&#8226; Native video call feature should be there i.e. direct video calling(without any app).
+    </string>
+    <string name="Gadget_ans_02"><u>Decide your range first!</u>\n\n
+    Make your decision that either you want to buy a laptop for Day to Day Use Or For Gaming.\n
+    Things you should keep in mind before buying\n
+    \n   1. Day To Day Use
+    \n   2. Gaming
+        \n\n\t\t\t <u> Day to Day Use</u>
+        \n  Rs 20,000 to Rs 35,000 budget laptop is preferred for Day to Day use.
+        \n  Things you should keep in mind before buying :-
+        \n\t &#8226; Processor - Buy Quad Cores only. i5 should be the prime priority, i3(6th Gen)/i3(5th Gen) are good selections.
+        \n\t &#8826; Hard disk space - 1TB best choice as is twice as much as 500GB.
+        \n\t &#8226; Operating System  - Windows : You have to pay for it(Rs 3000). Ubuntu/Free-DOS : Free
+        \n\t &#8226; Atleast one USB 3.0 port for high speed (100MBps).
+        \n\t &#8226; Intel HD Graphics (Integrated Graphics) - For Day to Day and low end gaming (csgo etc..)
+        \n\t &#8226; Webcam,bluetooth,VGA port should be there.
+        \n\t &#8226; Brand - HP,DELL,ASUS prime choice , Lenovo,SAMSUNG secondary choice.
+        \n\t &#8226; LED key backlight.
+        \n\n\n\t\t\t<u> For Gaming</u>
+         \n  Rs 35,000 to Rs 70,000 budget laptop is preferred for Gaming.
+         \n  Things you should keep in mind before buying :-
+          \n\t &#8226; Processor - Buy Quad Cores only. i7 7/6th GEN should be the prime priority, i5(7th Gen),i5(6th Gen).... are good selections , i3 not fit for high end games.
+        \n\t Graphic Card - Nvidia 940,930,920,... GEFORCE GTX..... etc with 2GB to 4GB <b> dedicated video memory</b> : prime choice\nAMD Radeon             \n\t Graphic Card - Nvidia 940,930,920,... GEFORCE GTX..... etc with 2GB to 4GB dedicated video memory : prime choice\nAMD Radeon  : Good Choice
+        for high end gaming(GTA 5,FAR CRY 4,ASSASSIN\'s CREED).\n\n\n
+        Rest features same as mentioned for Day to Day Life.
+    </string>
+    <string name="Gadget_ans_03">\n\t &#8226;Bluetooth Ear Phones and Speakers\n&#8226;External Hard Disk etc...\n\n<i>*Special*</i>\n\t &#8226; AirBar\n\t &#8226; Android Watch etc...</string>
+    <string name="Gadget_ques_02">Q2. Thinking of buying a Laptop to buy? How can you go for the best?</string>
+    <string name="Gadget_ques_03">Best Gadgets to have? Special gadgets that exists?</string>
+
+    <string name="bank_imt">
+
+        Instant Money Transfer (IMT)------------
+
+\nIMT through Internet Banking
+
+\n\nTo send an IMT to a receiver, all you need is the receiver\'s mobile phone number. You can send money to a receiver by following the below mentioned process:-
+        \n\nInitiating an IMT
+\nAxis Bank customers can login to Axis Bank Internet Banking and initiate IMT. Customers can register beneficiaries by entering the beneficiary\'s name, mobile number and address. \nThis beneficiary registration is a one-time process. Once a beneficiary is successfully registered, IMT can be initiated by entering the Amount to be transferred and Setting a sender\'s code. (The beneficiary would need this code to withdraw cash from the ATM).
+\nAs soon as an IMT is issued the Beneficiary receives an SMS on his or her mobile number containing the details of the IMT. The details present in the SMS are:
+\nThe IMT amount
+\nSMS Code (Axis Bank will generate this and send to the beneficiary)
+\nIMT ID (a unique code which can be used to refer your IMT transaction)
+\nIMT Expiry date
+\nWithdraw the IMT
+\nCancel IMT
+\nStatus Check
+\nLimits
+\nIMT through ATM
+
+\n\nInitiating the IMT
+\nAn Axis Bank customer can send money to any mobile number in India by providing the beneficiary\'s mobile number, amount to be transferred and setting the Sender\'s code (The beneficiary would need this code to withdraw cash from the ATM).
+\n\nWithdrawal
+\nIf the beneficiary has a Debit card, he or she can withdraw the IMT by using his or her Axis Bank debit card. After inserting the card, the receiver can select IMT > WITHDRAW IMT and provide the following details:
+\nMobile number on which he or she has received the IMT details
+\nThe Sender\'s code
+\nThe SMS code
+\nThe IMT amount
+\nOn validation of the above-mentioned details, the cash will be dispensed from the ATM.
+\nIf the beneficiary doesn\'t have a Debit card (of any recognized Bank), he or she can perform a card less IMT withdrawal at any Axis Bank ATM.
+
+
+\n\nA sender will be charged Rs. 25 (inclusive of taxes) for every IMT transaction he or she issues to a receiver. Please note that there are no reversals of these charges in case the IMT expires or is cancelled.
+\nThere is no charge for cancellation of an IMT.
+
+Axis Bank is pleased to announce the launch of Instant Money Transfer (IMT) service for the Bank\'s customer.
+\n\nIMT is an innovative domestic money remittance service that allows you to send money to a receiver only by using the receiver\'s mobile number. The receiver can withdraw money from an Axis Bank ATM with or without using a card. The receiver receives all the details required for withdrawal of the cash on his or her mobile phone.
+\nThe importance of IMT is multi-fold. You can use the service for any of these cases:
+\nThe receiver prefers cash
+\nThe receiver needs money instantly \ needs emergency cash
+\nThe receiver doesn\'t have a bank account
+\nWhen you don\'t know the receiver\'s bank account details
+\nThe receiver is not within easy distance (to deliver cash or send a cheque by hand)
+
+
+\n\nHow to receive money using IMPS?
+
+\nUsing Account number and IFSC Code	Using Mobile Number and MMID
+\nNow share your Account number and IFSC with the sender so that he\she can send money to your account instantly.
+
+\n\nUsing Mobile Number and MMID
+\nNow share your Account number and IFSC with the sender so that he\she can send money to your account instantly.
+\nShare your MMID and Mobile number with the sender so that he\she can send money to your account instantly.
+\nHow to generate MMID.
+\nGenrate MMID through MobileBanking
+\nLogon to MobileBanking App or logon to m.hdfcbank.com from mobile internet browser
+\nClick on accounts section
+\nClick on Generate MMID
+\nor\nGenerate MMID through NetBanking
+\nLogin to NetBanking, and click on Generate MMID transaction in left menu, under Request section.
+\nEnter the details and Confirm
+\nMMID is generated for your account.
+\nor
+\nCall PhoneBanking to generate MMID
+\nCall PhoneBanking number of your region
+\nSelect Language
+\nSelect 1 for Banking
+\nSelect 6 to talk to agent to register for IMPS and generation of MMID
+\nRequest for IMPS registration will be tken and MMID will be sent to your Mobile number by next working day.
+
+
+\n\n\n\n
+
+How to send money using IMPS-------------
+
+\n •Send Money using Account number and IFSC
+\n •NetBanking
+\n •Login to NetBanking and Click on "Funds Transfer" Tab
+\n •Click on IMPS Funds transfer using account number, enter the details, and confirm the transaction.
+\n •You will receive the confirmation sms for IMPS transaction
+
+\n •Send Money using MMID and Mobile Number
+
+\n\n\nNetBanking
+\n •Login to NetBanking and Click on "Funds Transfer" Tab
+\n •Click on IMPS Funds transfer using Mobile number, enter the details, and confirm the transaction.
+\n •You will receive the confirmation sms for IMPS transaction
+\n\n
+
+    </string>
+
+    <string name="bank_rtgs">
+        \nRTGS-------
+
+\n\nMoney transferring has become a lot easier with technology becoming a major part of our day to day lives. While there used to be a time, when people would deliver cash personally for the fear of a middle man interrupting the transaction, nowadays life has become simpler and transactions much easier with RTGS or Real Time Gross Settlement.
+
+\nReal-time gross settlement systems (RTGS) is a funds transfer system where money transfer takes place from one bank to another on a "real time" basis and "gross" basis.Settlement in the "real time" means that the transaction happens almost immediately. "Gross settlement" means the transaction is settled on one to one basis unlike NEFT where the transaction happens in bulk at a given point in time during the day. Once the transaction is processed, they are irrevocable. The minimum amount that needs to be remitted through NEFT is 2 lakhs.\n\n
+RTGS is used for transactions which are very high in value and need to be cleared immediately. The bank that receives the money has to credit the amount in the account within 30 minutes of receiving it. The RTGS service window for transactions is available to banks from 9.00 hours to 16.30 hours on week days and from 9.00 hours to 14:00 hours on Saturdays for settlement at from RBI’s end. However, the timings that the banks follow may vary depending on the customer timings of the bank branches.
+\n\n\n
+
+HOW TO INITIATE RTGS.....
+\nRTGS Funds Transfer is both fast and convenient.
+\nGo to Funds Transfer and select ‘Transfer to other bank (using RTGS)’
+\nAdd the beneficiary\’s details
+\nComplete the transfer details (the sender and recipient information)
+\nConfirm your transaction
+\nPlease Note:
+\nThe beneficiary will be activated in 30 minutes (due to security reasons). The Beneficiary can be viewed in the “View Beneficiary” option of the Enquire Section.
+\nPost activation of a beneficiary, RTGS transactions are possible only post 48 hours.
+\nAn added beneficiary to whom no funds are transferred for more than 24 months, is treated as a new beneficiary in all respects.
+\nA maximum of 7 beneficiaries can be added\modified\deleted in a period of 24 hours.
+
+\n\n\n
+
+Is there a fee?
+RTGS transactions are charged as below:
+Rs 2 lakh to Rs 5 lakh - Rs. 25 (exclusive of taxes) per transaction
+Above Rs 5 lakh - Rs. 50 (exclusive of taxes) per transaction
+\n\n\n
+
+Important Instructions
+The Funds transfer request through RTGS NetBanking mode can be made only from 08:00 am to 04:00 pm, from Monday to Friday. On Saturdays ( excluding second and fourth saturday ) , the Funds transfer request through RTGS NetBanking mode can be made only from 08:00 am to 04:00 pm.
+There will be no RTGS transactions possible on Bank holidays and Sundays.
+The money will reach the Beneficiary\'s Bank within the time stipulated by RBI.
+Contact Details of Customer Facilitation Centre for redressal of your RTGS related complaints
+\n\n\n
+What is RTGS System?
+\n\nThe acronym <b>RTGS</b> stands for Real Time Gross Settlement, which can be defined as the continuous (real-time) settlement of funds transfers individually on an order by order basis (without netting). <b>Real Time</b> means the processing of instructions at the time they are received rather than at some later time; Gross Settlement means the settlement of funds transfer instructions occurs individually (on an instruction by instruction basis). Considering that the funds settlement takes place in the books of the Reserve Bank of India, the payments are final and irrevocable.
+\n\n\n
+
+    </string>
+
+    <string name="bank_neft">
+
+
+
+NEFT------------
+\n\n\n
+Gone are the days when you had to personally deliver large sums of money to people. Nowadays it’s quick, convenient and extremely easy because technology has reached another level. It has made people completely independent and as a result extremely worry-free. This is because transferring money isn’t as complicated as it used to be. National Electronics Fund Transfer or NEFT as it is known is a quick and fast way of transferring funds from a particular bank to any other bank that is a participant in this scheme. It is one of the most prominent ways of transferring money since its inception in the year 2005. NEFT unlike RTGS (Real Time Gross Settlement) is not a real-time settlement of money. It is dispatched in batches and is available in tentatively 30,000 bank branches in India.
+NEFT has paved the way for big fund transfers online. Earlier people would have been skeptical to use it because it is such high-end technology and that it could cause confusion but with the success of this scheme, more and more people are using it and also spreading the word. There are charges attached to NEFT if the beneficiary has an account with the same bank. But if the remitter is transferring money to a beneficiary from another bank, there are a list of charges attached to it. It varies for the sum that is being transferred. It is minimal and ranges from Rs 2.50 to Rs 25. As a result, it doesn’t even pinch the pocket and is very reasonable. This transfer is considered to be very safe and is encouraged because there is no cash involved. The Remitter and Beneficiary receive a message once the transaction is done, thus leaving both absolutely relaxed. Once the timings are known, which the bank provides, all you need to transfer and everything is taken care of.
+\n\n
+With e-Monies National Electronic Funds Transfer you can transfer funds and make Credit card payments to any bank across India. With this service your transactions are easier, and, with fewer restrictions, they reach further than before
+\n\n
+What is NEFT Transfer of Payment?
+\nA nation- wide funds transfer system, supporting the transfer of funds from any bank branch to any other bank branch, anywhere in India.
+\n\n
+What are the benefits of Electronic Funds Transfer?E-Monies National Electronic Funds Transfer is:
+\nEasier – no queues
+\nFaster – no demand drafts, cheques or letters
+\nConvenient - handle Credit card payments from home
+
+\n\n\n
+
+Fees and Charges of Electronic Funds Transfer (NEFT) Service
+\nNEFT transactions on NetBanking are charged as below:
+\nAmounts up to Rs. 10,000 - Rs.2.5 (exclusive of taxes) per transaction
+\nAmounts from Rs.10,001 to Rs.1 lakh - Rs. 5 (exclusive of taxes) per transaction
+\nAmounts above Rs. 1 lakh up to Rs. 2 lakh - Rs. 15 (exclusive of taxes) per transaction
+\nAmounts above Rs.2 lakh – Rs.25 (exclusive of taxes) per transaction
+
+
+What are the transaction steps?
+\nTo use E-Monies National Electronic Funds Transfer you will need to begin by adding a beneficiary. Then you can go on to make a funds transfer or Credit card payment.
+\nTo add a beneficiary –
+\nBoth the NetBanking and Third Party Funds Transfer facilities should be enabled. (If you\’re not yet registered, just fill the form at your closest HDFC Bank branch).
+\nYou should have your beneficiary’s IFSC handy. You can get this from the beneficiary bank.
+\nWhen the above is complete you can follow these steps:
+\nStep 1 - Log into HDFC Bank NetBanking, using your Customer ID and Password
+\nStep 2 – Go to Fund Transfer tab.
+\nStep 3 - Click ‘Add a Beneficiary’, and then select Beneficiary Type – Transfer to other bank
+\nStep 4 – Enter the beneficiary account or Credit card number
+        \nStep 5 – Select the IFSC, using the bank and branch name. Now you can add the beneficiary. Remember, this is a one-time process.nStep 6 – Click ‘Add’, then <b>Confirm</b>
+\nStep 7 – Authenticate yourself at the secure access step, and wait for your confirmation message
+\nThe beneficiary will be activated in 30 minutes (due to security reasons). The Beneficiary can be viewed in the "View Beneficiary" option of the Enquire Section.
+\nPost activation of a beneficiary,
+\nRs.50,000 (in full or parts) can be transferred for the first 24 hours.
+\nRs.100,000 (in full or in parts) can be transferred for the first 48 hours.
+\nAn added beneficiary to whom no funds are transferred for more than 24 months, is treated as a new beneficiary in all respects.
+\nA maximum of 7 beneficiaries can be added\modified\deleted in a period of 24 hours.
+\nTo make your funds transfer\Credit card payment –
+\nStep 1 – Go to Fund Transfer tab, and click Transfer to other bank
+\nStep 2 – Select account, beneficiary, and enter the relevant details.
+\nStep 3 – Accept the Terms and Conditions
+\nStep 4 – Review the details, and, if all is correct, confirm to complete the process
+
+
+Important Instructions
+The Funds transfer request made by 6 p.m. will be presented to RBI on the same day. The Funds transfer request made after 6 p.m. will be presented to RBI on the next working day.
+On Saturdays ( excluding second and fourth saturday ), funds transfer request made by 6 p.m. will be presented to RBI on the same day. The Funds transfer request made after 6 p.m. will be presented to RBI on the next working day.
+Funds transfer request made on non- working days will also be presented to RBI on the next working day
+The actual time taken to credit the account depends on the time taken by the Payee\'s Bank to process the payment
+The money will reach the Payee\'s bank within the time stipulated by the Reserve Bank of India.
+The maximum amount of funds that can be transferred per customer ID per day is Rs.10 lakhs.
+Contact Details of Customer Facilitation Centre of HDFC Bank for redressal of your NEFT related complaints
+Contact details of Customer Facilitation Centre for other Banks
+
+
+</string>
+    <string name="bank_faq">
+
+How RTGS is different from National Electronics Funds Transfer System (NEFT)?
+\n\nNEFT is an electronic fund transfer system that operates on a Deferred Net Settlement (DNS) basis which settles transactions in batches. In DNS, the settlement takes place with all transactions received till the particular cut-off time. These transactions are netted (payable and receivables) in NEFT whereas in RTGS the transactions are settled individually. For example, currently, NEFT operates in hourly batches. [There are twelve settlements from 8 am to 7 pm on week days and six settlements from 8 am to 1 pm on Saturdays.] Any transaction initiated after a designated settlement time would have to wait till the next designated settlement time contrary to this, in the RTGS transactions are processed continuously throughout the RTGS business hours.
+
+\n\n\n
+Is there any minimum\maximum amount stipulation for RTGS transactions?
+\n\nThe RTGS system is primarily meant for large value transactions. The minimum amount to be remitted through RTGS is Rs. 2 lakh. There is no upper ceiling for RTGS transactions.
+\n\n\n
+What is the time taken for effecting funds transfer from one account to another under RTGS?
+\n\nUnder normal circumstances the beneficiary branches are expected to receive the funds in real time as soon as funds are transferred by the remitting bank. The beneficiary bank has to credit the beneficiary\'s account within two hours of receiving the funds transfer message.
+
+\n\n\n
+Would the remitting customer receive an acknowledgement of money credited to the beneficiary\'s account?
+\n\nThe remitting bank receives a message from the Reserve Bank that money has been credited to the receiving bank. Based on this the remitting bank can advise the remitting customer through SMS that money has been credited to the receiving bank.
+
+\n\n\n
+Would the remitting customer get back the money if it is not credited to the beneficiary\'s account? When?
+\n\nYes. Funds received by a RTGS member for the credit to a beneficiary customer\'s account, will be returned to the originating RTGS member within two hours of the receipt of the payment at the PI of the recipient bank or before the end of the RTGS business day, whichever is earlier, if it is not possible to credit the funds to the beneficiary customer\'s account for any reason e.g. account does not exist, account frozen, etc. Once the money is received back by the remitting bank, the original debit entry in the customer\'s account is reversed.
+\n\nTill what time RTGS service window is available?
+\n\nThe RTGS service window for customer\'s transactions is available to banks from 9.00 hours to 16.30 hours on week days and from 9.00 hours to 14:00 hours on Saturdays for settlement at the RBI end. However, the timings that the banks follow may vary depending on the customer timings of the bank branches.
+\n\n\n
+
+What about Processing Charges\Service Charges for RTGS transactions?
+\n\nWith a view to rationalize the service charges levied by banks for offering funds transfer through RTGS system, a broad framework has been mandated as under :
+Inward transactions - Free, no charge to be levied.
+Outward transactions -
+Rs. 2 lakh to Rs. 5 lakh - not exceeding Rs. 30 per transaction;
+Above Rs. 5 lakh - not exceeding Rs. 55 per transaction.
+\n\n\n
+
+What is the essential information that the remitting customer would have to furnish to a bank for the remittance to be effected?
+\n\nThe remitting customer has to furnish the following information to a bank for initiating a RTGS remittance :
+\nAmount to be remitted
+\nRemitting customer\'s account number which is to be debited
+\nName of the beneficiary bank and branch
+\nName of the beneficiary customer
+\nAccount number of the beneficiary customer
+\nSender to receiver information, if any
+\nThe IFSC number of the receiving branch
+
+\n\n
+How would one know the IFSC code of the receiving branch?
+\nThe beneficiary customer can obtain the IFSC code from his bank branch. The IFSC code is also available on the cheque leaf. The list of IFSCs is also available on\nthe RBI website (http:\\rbidocs.rbi.org.in\rdocs\RTGS\DOCs\RTGEB0112.xls). This code number and bank branch details can be communicated by the beneficiary to the \nremitting customer.
+
+
+\n\nDo all bank branches in India provide RTGS service?
+\nNo. All the bank branches in India are not RTGS enabled. Presently, there are more than 100000 RTGS enabled bank branches. The list of such branches is available on \nRBI website at:http:\\rbidocs.rbi.org.in\rdocs\RTGS\DOCs\RTGEB0112.xls
+
+
+\n\nIs there any way that a remitting customer can track the remittance transaction?
+\nIt would depend on the arrangement between the remitting customer and the remitting bank. Some banks with internet banking facility provide this service. Once the funds are credited to the account of the beneficiary bank, the remitting customer gets a confirmation from his bank either by an e-mail or SMS. Customer may also contact RTGS\NEFT Customer Facilitation Centres of the banks, for tracking a transaction.
+
+
+\n\nWhom do I can contact, in case of non-credit or delay in credit to the beneficiary account?
+\nContact your bank\branch. If the issue is not resolved satisfactorily, complaint may be lodged to the Customer Service Department of RBI at -
+
+\nThe Chief General Manager,
+\nReserve Bank of India,
+\nCustomer Service Department,
+\n1st Floor, Amar Building, Fort,
+\n
+Mumbai - 400 001
+\nOr send email
+\n\n\n
+
+How can a remitting customer know whether the bank branch of the beneficiary accepts remittance through RTGS?
+\nFor a funds transfer to go through RTGS, both the sending bank branch and the receiving bank branch would have to be RTGS enabled. The lists are readily available at all RTGS enabled branches. Besides, the information is available at RBI website (http:\\rbidocs.rbi.org.in\rdocs\RTGS\DOCs\RTGEB0112.xls). Considering that more than 100000 branches at more than 20,000 cities\towns\taluka places are covered under the RTGS system, getting this information would not be difficult.
+
+    </string>
+
+    <string name="New_tech"></string>
+
+
+    <string name="Syllabus"></string>
+
+
+    <string name="Project_beg">
+
+       \n\n\n
+
+1.  <b><u>School Security System (SSS) using RFID</u></b>----->
+\n\n
+Nowadays, parents are worried about their children because of the high rate of kidnapping. Moreover, parents are having long working hours, so they simply do not have as much time to spend for their children Moreover, they will be persuaded by kidnapper before they enter the school .So, it is the responsibility for the school to take care of their students and they also know in-time and able to send an alert message to their parents if the students are not at the school at school start time. This System ensures safety of the students by making their parents aware about the various important status about their students like in-time, out-time, everything about their arrival. By using RFID technology it is easy track the student thus enhances the security and safety in selected zone. The information about student such as in time and out time from Bus and campus will be recorded to web based system and SMS will be automatically sent to their parents that the student arrived to Bus/Campus safely. SMS will be sent to parents whose children are absent without taking leave. The parents can log into system website and monitor the details of their children. The implementation of School Security System(SSS) via RFID to avoid crime, illegal activates by students and reduce worries among parents
+\n\n
+Advantages
+\n\n
+This system ensures security of the students.
+Reduces crime, illegal activities
+Reduce worries among parents
+\n\n
+
+
+2.  <b><u>Computer Assembly Website Php</u></b>----------
+\n\n
+It is a computer parts assembly website project, where a user may select various computer parts online and it will be delivered to the users address. The computer assembly website project allows users to select from a list of computer parts of various companies and models.
+The project works as follows:
+\n\n
+User gets an option to login to the website.
+The user needs to create a new account if he/she is not registered
+The user can then see various links saying Hard disk, motherboard, mouse, speaker etc.
+Once the user clicks on motherboard link, the motherboard selection page is opened.
+Here the user may view a list of motherboards of various companies, make and models.
+User is allowed to select any product needed and add it to his/her shopping cart.
+The user may then visit any other page(mouse selection, ram selection etc) and shop for those products too.
+Our website allows user to add these products to their shopping cart as needed.
+At the end when user finishes shopping a bill is generated containing various products in the users shopping cart.
+Thus the computer assembly website project allows for a robust computer parts shopping and assembly functionality.
+\n\n\n
+
+3. <b><u>Car Comparison System Project Php</u></b>---------
+\n\n
+
+Before buying a car, it is best to compare its feature and characteristic with other cars. Car comparison system project focuses on providing information to buyers about the similarities and dissimilarities between two cars. User needs to select two cars and the system will generate a brief report indicating the benefits and defects. Thus, it helps user to analyze the cars effectively and user can make best decision before buying. The system provides an admin login that has sole control over it. He can post different cars and can put up notifications. The user logs into the system and can search for his car. The system then shows various car options for comparison with respect to the desired one. Hence, user can check out varieties of features and can compare it. The system has an additional advantage of providing and suggesting the best accessories available for the respective car.
+This online system is developed on Php platform and supported by a MySql database to store user specific details.
+\n\n
+Features:
+\n\n
+Admin login: It has an admin account that controls the whole system. Admin has the control to give access to employee in the system.
+Comparison system: It compares the two cars features and characteristics as asked by user.
+Accessories option: It also provides varieties of accessories available with the cars.
+Feedback form: User can provide reviews and feedback for particular car.
+Enquiry form: If user has some confusion he can query the same in enquiry form. The form is then sent to admin.
+Emailing: If user wants to get the comparison report then he can do so by providing their email id and the system sends the report to respective user.
+\n\n
+4.  <b><u>Course Material Distribution System Php</u></b>-----------
+\n\n
+
+In various universities including IGNOU, dispatches material required for various courses after the affirmation are sent to students. The student data is provided including name, address as well as the course material to be dispatched to the student. Each course has a set of number of booklets, which are by and large pressed together before dispatch. Booklet Stock is printed and maintained independently. Availability of the stock of course material is crosschecked as soon as the new request for dispatch is received. The material is dispatched instantly if material for each course and booklet for the same is available. Rest of the information is moved to pending stack of course pending database. The inventory stock is updated on receiving new printed stock and dispatch is made first to pending cases.
+Advantages
+\n\n
+The system is very effective and convenient to use.
+It reduces the use of manpower to a great extent.
+It produces an overall statistics of the inventories so that it can be further used in future for analysis purpose.
+The system is secured and gives only authorized access.
+It saves cost and time.
+
+    </string>
+    <string name="Project_interm">
+
+\n\n\n\n
+
+
+
+
+
+
+
+
+1. <b><u>Android Based PC Controller Using Wifi</u></b>------
+\n\n
+An Android based PC Controller using Wi-Fi is an android application that works like PC mouse. This application smartly controls pc keyboard functions and mouse operations through an android mobile phone. This android application is based on the concept of using an android phone as a mouse. The software application once installed on an android phone can allows users to play games or control other pc functionality through their android phone. The application is made using Eclipse and creates a QWERTY keypad buttons similar to the one used in PC. With the keypad, user can even use it for typing it on any word processor and can operate any application. The application when installed and run on an android based phone shows a mouse settings screen to control mouse sensitivity. The application requires a Wi-Fi connection between the computer and the android device. Thus, a user can remotely access the computer instead of sitting beside it. This application overcomes the limitations of a mouse and keyboard.
+\n\n
+
+2. <b><u>Wifi Library Book Locator Project</u></b>------
+
+\n\n\n
+Well a library is a vast collection of books. This requires a proper arrangement and placement of books in an order that makes it easy for the user to find a particular book. But in very large libraries having a huge collection, locating a particular book becomes quite a task.
+Even though all books are arranged in categories, the location of category must first be known so that the user gets to know where that particular category of books are placed. In such a condition there needs to be a way through user can precisely locate the location of any book by just typing its name.
+Here we a propose a server based system using an android application to achieve this task using wifi technology. The library operator just needs to add the location of a book in the system such as “3rd row| Right side | History Section | Fourth Book” and a map of the book along with it’s status of weather it is currently available or issued to someone else. All this data is stored o the server.
+Now members are provided an android application that serves the book finding purpose. Whenever user within wifi range of server types the book name through the android device, it sends a request to server for the particular book location. The server thus queries the database and returns the book location details and availability to the android user. Thus it allows to automate the library book finding as well as availability checking functionality in a library.
+
+\n\n\n
+3. <b><u>Android Tour &amp; Travel Agency Project</u></b>-------
+
+\n\n\n
+Our proposed project is an online tour and travel system that provides an effective solution for users to plan, manage and schedule their tour according to their requirements and demands. Often people get confused while planning for a tour. First of all they hardly know places where they can spend a good time. Further there comes money constraint. This system solves all problems of the client by providing them different packages and facility to personalize their tour.
+The most important part of the online travel agency project is its tour packages and customization. The database consists of a list of tours and their packages. The system promises to build 3 different areas for demonstrating its functionality appropriately. Our proposed system will consist of a user registration and login module for new users to register and login to the system. The user may then view various tours available. Each tour consists of three kinds of packages that includes economic, semi deluxe and deluxe for stay, food and travelling. Users may choose the destination and package as and when needed. The user can plan and book a fully customizable trip with various packages available. The user may even cancel his booking using his login credentials. After successful booking user can make payment via a demo credit card and gets an acknowledgement email too.
+
+\n\n\n
+4. <b><u>Android Vehicle Tracking Application</u></b>-------
+\n\n\n
+
+The system tracks vehicles on an online map . The system allows the app user to track and check vehicle fuel entries , servicing data and even repair/ maintenance status. This system allows users to keep track of their vehicles provided on rent or lease to someone else. Also for tourist vehicle owners to keep track of multiple vehicles. The individual features of this application have been listed below
+It provides a fuel entry form for each vehicle in that keeps track of its fuel entries for every month.
+A servicing Entry form is used to maintain the servicing data for each vehicle in per month.
+Repair &amp; maintenance Entry form for each Vehicle in allows us to track its monthly repair/maintenance status.
+The vehicle tracking system Uses the drivers GPS Enabled Mobile to track the vehicle on a google maps.
+The report consists of following data to check vehicle performance on a bar graph:
+\n\n\n
+ Fuel report data.
+Servicing report data.
+Repair &amp; maintenance report.
+
+\n\n\n
+
+5. <b><u>Android Geo Fencing App Project</u></b>------
+\n\n
+This developed project work for parents and their children’s. The parents and children’s both should have GPS based smart phones. The application is used to track the child’s location using their smartphone. To access this application, parent need to create an account by filling up basic registration details and create a login id and password. Using valid login credentials, parent can login and access the application modules.
+After successful login, parent need to add their child details and also need to create a login id and password for their child in order to track their location. While registering their child name, parent need to set a geo fence around their children by selecting a point on map. Parent can also update the fence around their child. Besides geo fencing, a new user can register by selecting the application type and access a module which will be helpful in their day-to-day life. Add task is the module which allows registered users to add a task for a particular location by selecting a point on map and filling up the task description. Application will store the task and will alert the user when user reaches the task location via notification. User can perform the desired task and finish the task once the desired task is performed. Another type of module is setting boundary where user first need to register and select the type of user. Setting boundary is useful for those people such as fishermen as well as peoples who lives nearby boundary between two countries. User need to select the boundary area to get notified once he/she reaches nearby boundary. This module will notify the user whenever user reaches nearby to boundary.
+
+    </string>
+    <string name="Project_adv">
+
+1. <b><u>Movie Success Prediction Using Data Mining Php</u></b>--
+\n\n\n
+
+In this system we have developed a mathematical model for predicting the success class such as flop, hit, super hit of the movies. For doing this we have to develop a methodology in which the historical data of each component such as actor, actress, director, music that influences the success or failure of a movie is given is due to weight age and then based on multiple thresholds calculated on the basis of descriptive statistics of dataset of each component it is given class flop, hit, super hit label. Admin will add the film crew data. Admin will add movies data of a particular film crew. Admin will add new movie data along with film crew details as well as release date of the new movie. Based on the weight age of historical data of each film crew the movie will be labeled as super hit, hit or flop. This system helps to find out whether the movie is super hit, hit, flop on the basis of historical data of actor, actress, music director, writer, director, marketing budget and release date of the new movie. If the movie releases on weekend, new movie will get higher weight age or if the movie releases on week days new movie will get low weight age. The factors such as actor, actress, director, writer, music director and marketing budget historical data of each component are calculated and movie success is predicted. This application helps to find out the review of the new movie. Due to this system, user can easily decide whether to book ticket in advance or not.
+
+\n\n\n
+
+
+2. <b><u>Artificial Intelligence Dietician</u></b>-------
+\n\n
+
+The online artificial dietician is a bot with artificial intelligence about human diets. It acts as a diet consultant similar to a real dietician. Dieticians are educated with nutrient value of foods. A dietician consults a person based on his schedule, body type, height and weight. The system too asks all this data from the user and processes it. It asks about how many hour the user works, his height, weight, age etc. The system stores and processes this data and then calculates the nutrient value needed to fill up users needs. The system then shows an appropriate diet to the users and asks if user is ok with it, else it shows other alternate diets to fill up users needs.
+\n\n
+3. <b><u>Automatic Answer Checker</u></b>-------
+\n\n
+
+An automatic answer checker application that checks and marks written answers similar to a human being. This software application is built to check subjective answers in an online examination and allocate marks to the user after verifying the answer. The system requires you to store the original answer for the system. This facility is provided to the admin. The admin may insert questions and respective subjective answers in the system. These answers are stored as notepad files. When a user takes the test he is provided with questions and area to type his answers. Once the user enters his/her answers the system then compares this answer to original answer written in database and allocates marks accordingly. Both the answers need not be exactly same word to word. The system consists if in build artificial intelligence sensors that verify answers and allocate marks accordingly as good as a human being.
+    </string>
+
+
+    <string name="References">
+        \n\n &#8226; Github
+        \n &#8226; TutorialPoint
+        \n &#8226; Android-developers(developers.android)
+        \n &#8226; SlideNerds
+        \n &#8226; Master Android
+        \n &#8226; Simplified Programming
+        \n &#8226; StackOverFlow
+
+    </string>
+
+
+    <string name="Scholorship_question_1">Q1. How can I get a UP scholarship?</string>
+    <string name="Scholorship_A_1">-  Up government provides prematric and postmatric scholarships every year. Whole process is divided into two parts.
+
+\n\nRegister at website U.P. Scholarship and Fee Reimbursement Online System using your personal and academic details. Regstration process generally starts in July month.
+Take the print out of registration form and attest/authenticate by college/School authorities.
+        \n\tThere are basically four branches of scholarship, prematric, postmatric(11–12), postmatric(colleges in UP) and postmatric(colleges outside UP).
+
+\n\nGetting scholarship in first 3 branches is very easy as there are many students who are filling the form. However, in fourth category, there may be chances that your college may not be in the list.
+        In this case, you have to contact the scholarship department to enlist your college which may add some chaos.
+    </string>
+    <string name="Scholorship_question_2">Q2. Documents required to get a Scholarship?</string>
+    <string name="Scholorship_A_2">-  The following documents are to be sent by Post
+        \n1. Print out Of Scholarship Application Form.
+        \n2. ID Card Of Institute.
+        \n3. Aadhar Card.
+        \n4. Copy of Bank\'s Passbook.
+        \n5. Fee Receipt Copy
+        \n6. Income certificate &amp; it\'s net slip.
+        \n7. Caste certificate &amp; it\'s net slip.
+        \n8. Domicile certificate and it\'s net slip.
+        \n9. Marksheet of last year of passing.
+        \n10. Intermediate &amp; High School Certificate.
+        \n11. Affidavite of Parent (for annual income).
+        \n12. Aadhar &amp; Pan Card Of Parent(for Form 6).
+    </string>
+    <string name="Scholorship_question_3">Q3. Where to get net slip of certificates?</string>
+    <string name="Scholorship_A_3">-  Go to
+        \n164.100.181.28/edistrict/certificate/certVerify.aspx</string>
+
+
+    <string name="Learn">
+      Learning skills that will help in you to achieve your ultimate goal is the main Objective/Aim of Engineering.
+        \n\nBut...\n
+        ..What To Learn?\n
+        &amp; When To Learn?
+        \nThat\'s probably the biggest question we have in mind when we start learning stuff.
+
+        \n\n Example: \n
+        &#8226;  Learning Android without knowing JAVA is useless. You won\'t be able grasp anything at all..\n
+        &#8226;  Progressing in IOT without any knowledge of Rasphberry Pi,Python,Ardeno etc.. is impossible..\n\n
+
+
+
+        So,\n
+        It is recommended to follow these before blindly running to learn stuff. :-\n\n
+        &#8226; Learn Python/C/Java (Simplest Python) as your first Programming Language.\n
+        &#8226; Be familiar with Database concepts &amp; queries like (SQL,Oracle) before learning Big Data Analytics.. \n
+        &#8226; A little knowlege of networking and Client-Server Architecture is required for learning cloud computing..\n
+        \n\n
+
+        <b><u>Technologies That will Define Our Future</u></b>
+        \n\n
+        &#8226; Big Data.\n
+        &#8226; Cloud Computing.\n
+        &#8226; Artifical Intelligence.\n
+        &#8226; Open Source.\n
+        &#8226; IOT\n
+        &#8226; Angulat JS.\n
+        &#8226; Advance Python.\n
+        etc..\n
+
+
+
+
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_os_act">OS_act</string>
+    <string name="title_activity_main_tools">Main_tools</string>
+    <string name="title_activity_tab_activity">Tab_activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

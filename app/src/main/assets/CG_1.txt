@@ -1,0 +1,168 @@
+﻿                                                        
+							                         UNIT-1
+
+Q1.What do you understand by point?Derive the equation for the intercept form of the line.Find out the conditions for which two lines are perpendicular or parallel.
+
+Q2.What is a line segment?Also explain the length of the segment.A line segment have end points(2,1) and (4,2).Find wheather the point(8,4) lies on this line segment or not.
+
+Q3.Find the distance between point(X0,Y0) and a line rx+sy+t=0 in a plane.
+
+Q4.What do you understand by plane?Also define the implicit form and explicit form of plane.For the plane 3x+y+5x=0,check the point(1,1,-1)lies in which region  R+,R- or on the plane.
+
+Q5.What is pixels?Explain the frame buffer.In 600*400 pixel,how may K bytes does a frame buffer need?
+
+Q6. Explain the concept of vector generation of line.
+
+Q7. Describe DDA line drawing algorithm.
+
+OR
+
+Implement the DDA algorithm to draw a line from(0,0) to (6,6).
+
+Q8.Write steps required to draw a line from point(x1,y1) to (x2,y2) using Bresenham’s line drawing algorihm.For 10*10 frame buffer ,interpret the Bresenham’s algorithm to find which pixels are tured on for the line segment (1,2) and (7,6).
+
+Q9.Find out raster loction(pixels) which would be choosen by Bresenham’s algorithm for a line drawing from screen coordinate(1,1) to screen coordinate(8,5).
+
+Q10.Using Bresenham’s line drawing algorithm,draw a line whose end point is (4,4) and start point is (-3,0). Q1. What are the different methods of   character generation?
+
+OR Differentiate between stoke method and dot-matrix or bitmap method.
+
+Q11.Explain the Raster Scan  System. OR
+
+Differentiate between Raster Scan System and Random Scan  System.
+
+Q12. What do you understand by horizontal and vertical retrace in raster system.
+
+Q13.What is interlacing? Describe the  working CRT with suitable diagram and also compare Raster scan CRT with vector scan CRT.
+
+Q14.Explain beam–penetration and shadow mark method and write down the basic problem with them.
+
+Q15.What is Computer Graphics? Also explain types and applications of computer graphics?
+
+Q16.Differentiate between Raster and Vector Graphics? Also explain types of display?
+
+Q17.How much time is spent in scanning across each row of the pixels during screen on a raster system with a resolution of 640 by 480 and a refresh rate of 60 frames per second?
+
+Q18.Write all the steps of mid point circle generating  algorithm?
+
+Q19.Draw a line by using Bresenham’s algorithm from (1,2) to (7,6)?Bresenham’s line algorithm is efficient algorithm than DDA why?
+
+Q20.Write the short note on:
+(1.)	 DVST
+(2.)	 Plasma Panel            
+(3.)	 LCD
+
+                                                        UNIT-2
+
+Q1. A unit square is transformed by 2*2 transformation matrix. The resulting position vectors are
+            0 2 8 6
+            0 3 4 1
+What is the transformation matrix?
+
+Q2. (a)Find the matrix that represents rotation of an object by 45 about the origin.
+       (b)What are the new co-ordinates of the point P(2,-4) after the rotation?
+
+Q3. A triangle is define by
+        2 4 4
+        2 2 4  
+Find the transformed co-ordinates after the following transformation
+(1.)90 rotation about origin.  (2.)reflection about line y= -x.
+
+Q4. Translate the square ABCD whose co-ordinate are A(0,0),B(3,0),C(3,3) and D(0,3) by 2 units in both directions and then scale it by 1.5 units in x-direction and 0.5 units in y-direction.
+
+Q5.Perform a 45 rotation of triangle A(0,0),B(1,1),C(5,2)
+(a)about the origin and (b)about point P(-1,-1). 
+
+Q6.Use the Cohen-Sutherland algorithm to clip line P1(70,10)  and P2(100,10) against  a window lower left hand corner(50,10) and upper right hand corner(80,40)
+
+Q7.Explain problems with Sutherland-Hodgeman algorithm? Also write at least two ways to solve these problems?
+
+Q8.Perform a 450 rotation of triangle A(0,0),B(1,1),C(5,2) about the point P (-1,-1)?
+
+Q9.Explain Weiler and Atherton polygon clipping algorithm?This  algorithm is better or not than Sutherland Hodgeman polygon clipping algorithm give your answer?
+
+Q10.Use Liang-Barsky line clipping algorithm to clip the line P1 (-15,-30) to P2 (30, 60) against the window having diagonally opposite corners as (0, 0) and (15, 15)?
+
+Q11.What are the basic transformations? Describe each with their matrix representation.
+
+Q12. What do you understand by homogenous co-ordinate.
+
+Q13. Prove that two 2D transformation are commute i.e  T 1T2=T2T1.
+
+Q14. Show that the composition of two rotations is additive by concatenating the matrix representations for R(θ1) and R (θ2) to obtain R(θ1) R (θ2)= R(θ1+θ2).
+
+Q15. Show the composition of two scaling is multiplicative by concatenating the matrix representation for [S(sx2,sy2).S(sx1,sy1)=S(sx1.sx2,sy1.sy2)]
+
+Q16. What is shearing transformation ? Explain with example.
+
+Q17. Prove that two 2D rotation about origin; commute i.e  R1R2=R2R1.
+
+Q18.Show that a reflection about the  line y=-x is equivalent to a reflection relative to y-axis followed by a counterclockwise rotation of 90.
+
+Q19.Find the instance transformation which places a half –size copy of square A(0,0),B(2,0), C(2,2) and D(0,2) defined in a master co-ordinate system into a world co-ordinate system in such a way that the center of the square is at(-3,-3) in the world co-ordinate system.
+
+Q20.Show the three transformation matrices used to rotate a figure 90 anti-clockwise about(3,3).Also generate the transformation matrix.
+
+Q21.Prove the simultaneous shearing in both directions(x and y) is not equal to the composition of pure shearing along x-axis followed by pure shear along y-axis.
+
+
+                                                      UNIT-3
+
+Q1. The pyramid defined by the co-ordinates A(0,0,0),B(1,0,0),C(0,1,0) and D(0,0,1) is rotated 90 about the L that has direction vector V=i+j+k and passing through the origin. Find the co-ordinates of the rotated figure.
+
+Q2. Find the transformation which aligns the vector V=i+j+k with the vector N=2i-j-k.
+
+Q3.The pyramid defined by the co-ordinates A(0,0,0),B(1,0,0),C(0,1,0) and D(0,0,1) is rotated 45 about line L that has the direction V=j+k and passing thought the point C(0,1,0).Find the co-ordinates of the rotated figure.
+
+Q4.Find the co-ordinates of a pyramid whose co-ordinates are A(0,0,0),B(1,0,0),C(0,1,0) and D(0,0,1) after mirror reflection with respect to the plane passing through
+
+(a)The origin       (b)The point  C(0,1,0) and having a normal vector whose direction is N =i+j+k.
+
+Q5.Find a matrix for parallel projection onto the plane 3x+y+4z+1=0 when
+
+(a)An orthographic  projection is used (b)An oblique projection is used.
+
+Q6.The pyramid defined by the co-ordinates A(0,0,0),B(1,0,0),C(0,1,0) and D(0,0,1) is rotated    450 about the line L that has direction V= i + j +k and passing through the point C(0,1,0).Find the co-ordinates of the rotated figure?
+
+Q7.What do you mean by projection? Also explain various types of projection and compare between parallel and perspective projection?
+
+Q8.Write short note on:-
+
+1)Windowing and Viewport.  2)3-D Clipping.  3)3-D geometric primitives
+
+Q9.What are 3-D transformation? Write the matrix of each transformation.
+
+Q10.Find the matrix for mirror reflection with respect to the plane passing through the origin and having a normal vector whose direction is N=I+J+K.
+
+Q11.What do you understand by parallel projection ?Also describe orthographic and obligue projection.
+
+
+
+                                                       UNIT-4
+
+Q1.Discuss the properties of the Bezier and B-Spline curves?
+
+Q2.Construct enough points on the Bezier curve whose control points are P0(4,2),P1(8,8),P2(16,4) to draw an accurate sketch
+I.	What is the degree of the curve?
+II.	What are the co-ordinates at µ = 0.5?
+
+Q3.Explain scan line algorithm for hidden surface removal?
+
+Q4.Explain Back Face Removal algorithm for Hidden surface removal?
+
+Q5.Differentiate between the object space and the image space hidden surface algorithm.
+
+Q6.Explain the following:
+1)A-buffer    2) Z-buffer 
+
+Q7.What is the difference between interpolation spline and approximation spline.
+
+Q8.What do you understand by Bezier curve?A cubic curve is defined by the points (1,1) (2,3) (4,4) and (6,1).Calculatate thre co-ordinates of parametric mid point of this curve ,and verify that its its gradient dy/dx is 1/7 at this point.Sketch the curve.
+
+Q9.What do you understand by blobby object and fractal objects.
+
+
+
+
+                                                                                                                                                          
+	                                                                                                                

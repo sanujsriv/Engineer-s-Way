@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp_2000.engineer_way_02.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+<LinearLayout
+    android:padding="16dp"
+    android:id="@+id/container1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About...
+"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#f00"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+
+        android:text="@string/Introduction"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prerequisites...
+"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#f00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Prerequisites"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nWill to Learn is the key &amp; we always have it... "
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#00f"/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>

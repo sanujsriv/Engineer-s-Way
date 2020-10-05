@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group><item
+        android:id="@+id/dld"
+        android:title="DLD" />
+    </group>
+  <group> <item
+        android:id="@+id/ds"
+        android:title="Data Structure" /></group>
+  <group>  <item
+        android:id="@+id/daa"
+
+        android:title="DAA" /></group>
+  <group>  <item
+        android:id="@+id/cg"
+
+        android:title="Computer Graphics" /></group>
+<group>   <item
+        android:id="@+id/os"
+
+        android:title="Operating System" />
+</group>
+    <group><item
+        android:id="@+id/gt"
+
+        android:title="Graph Theory" /></group>
+</menu>

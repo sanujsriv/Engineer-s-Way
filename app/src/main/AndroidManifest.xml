@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp_2000.engineer_way_02">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_e_icon"
+        android:label="Engineer&apos;s Way"
+        android:roundIcon="@mipmap/ic_launcher_e_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Introduction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main_query" />
+        <activity android:name=".CG_act" />
+        <activity android:name=".DAA_act" />
+        <activity android:name=".DS_act" />
+        <activity android:name=".DLD_act" />
+        <activity android:name=".GT_act" />
+        <activity android:name=".A_OS_act" />
+        <activity android:name=".Main_tools" />
+        <activity
+            android:name=".Tab_activity"
+            android:label="@string/title_activity_tab_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".QR_Scanner" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+    </application>
+
+</manifest>

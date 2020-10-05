@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_2000.engineer_way_02.Main_query">
+
+    <LinearLayout
+        android:id="@+id/container_q"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingTop="100dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:textColor="#fff"
+        android:id="@+id/button30"
+        android:text="Gadget Related FAQs"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:background="@drawable/roundedbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="fun_Gadgets"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:paddingBottom="100dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/button31"
+                android:text="Scholarship Related FAQs"
+                android:textAllCaps="false"
+                android:textSize="30sp"
+                android:background="@drawable/roundedbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="fun_scholo"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:paddingBottom="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/button1"
+                android:textAllCaps="false"
+                android:text="Banking Related FAQs"
+                android:textSize="30sp"
+                android:background="@drawable/roundedbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="fun_bank"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+

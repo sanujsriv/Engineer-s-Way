@@ -1,0 +1,334 @@
+﻿                            
+Question Bank
+   Sub. Name: DAA               Sub. Code:   ECS - 502      Section:   A & B
+   
+*************************************************************************************
+(1) Solve the following recurrences. Assume. 
+      T (1) = and T (3) = 1
+      (i) T(n) = T (n/2) + T(n/3) + n
+      (ii) T(n) = 3T (n1/3) + log3 n
+(2) What is time complexity of counting sort? Sort 1 9 3 3 4 5 6 7 7 8 by counting sort. 
+   
+(3) Design an algorithm to find the sum of smallest log2n elements in an unsorted array of n distinct element in o(n) time.
+
+(4) Solve the following recurrences :
+
+    (i) T(n) = T (α .n) + T((1 – α)n) + n0 < α < 1
+    (ii) T(n) = T (9n/10) +n.
+
+(5)What is the running time of heap sort on an array A of length n that is already sorted in increasing order?
+
+(6) Show that for any real constant a  and b where b>0, (n+a)b  =q(n)b
+
+(7)Explain how can we modify almost any algorithm to have  a good best case running time?
+
+(8) Can the Master method be applied to solve recurrence :-
+    T(n) =4T(n/2) +n2  log n?  why or why not?
+
+(9) How can you adapt ‘Quick sort’ algorithm to find the mth  order statistics in a given
+      list of size n?
+
+10. Write the pseudo code for the pity algorithm.
+
+11. Find  the complexity of  the following recurrence relation.
+
+12. Solve the following recurrence:
+
+T(1)=1
+
+T(n)=4T(n/3)+n2 for n>=2
+      T(n)=O(n2)
+13. Give an algorithm to count the number of leaf node in a binary tree t. What is its computing time.
+
+14. What do you mean by Asymptotic Notation. Explain.
+
+15. Find the best case and worst case time complexity deletion in a binary tree.
+
+16. Consider the following recurrence
+     T(n)=4T(n/2)+n2 Find its asymptotic bound using Master Method.
+17. Explain selection in expected linear time. You are also require to give the desire algorithm.
+
+18. Show the steps in heap sort to arrange following data in non-decreasing order
+                                1,2,5,6,9,8,7
+                                     OR
+       (A)    Find the solution of the following recurrence relation in O-notation
+T(n)=8T(n/2)+3n2
+	          Where n is an integer power of 2 and greater than 1.
+19. Develop and analyze an algorithm to determine whether a given N*N matrix . A has the metric property (that is, for all values of 1<=,j,k,<=N,aij aik +akj) or not.
+
+20. Write Master’s method for solving recurrence relations of different types.
+
+21. Discuss the basic step steps in complete development of  an algorithm.
+
+22. Write divide and conquer approach for binary search and find its average case complexity.
+
+23. Prove that the running time of radix-sort is represent as o(n log n).
+
+24. Explain the concept of partitioning of the set to be sorted using quick-sort  algorithm.
+
+25. solve the recurrence relation by iteration:
+             T(n) = T(n-1)+ n4     
+
+26. Suppose that a node x is inserted into a red-black tree with RB-Insert and then
+    immediately deleted with RB-Delete. Is the resulting red-black tree the same
+      as the initial red-black tree? Justify your answer.
+
+27. Suppose that a node x is inserted into a red-black tree with RB-Insert and then
+      immediately deleted with RB-Delete. Is the resulting red-black tree the same
+      as the initial red-black tree? Justify your answer.
+
+28. Show the result of inserting the keys F, S, Q,K, C,L, H, T,V, W, M, R, N, P, A,
+      B,X, Y, D, Z, E in order into an empty B tree. Only draw the configurations of
+   the tree just before some node must split and also draw the final configuration.
+   Use t=4, where t is minimum degree of B Tree.
+
+29. Find and prove the properties of binomial trees?
+
+30. What do you understand by Binomial Heap ? How to merge two binomial heap?
+
+31. What is a binomial tree? Explain with suitable example. You are also required to give.its properties.
+
+32. What are the various difference in Binomial and Fibonacci Heap? Explain.
+
+33. Explain the different conditions of getting union of two binomial heap.
+
+34. Show that A red-black tree with n internal node has height at most 2 lg
+       (n+1).What are the three different cases, when insert a node into a Red –Black
+       Tree (RBT)? Explain with example.
+
+35. We have a set of n jobs to execute, each of which takes unit time. At ay time T = 1,2…., we can execute exactly one jobs. Job i earns us a profit gi ->0 if and only if it is executed no later than time d1. Develop a greedy algorithm to solve the above problem. Run your algorithm for n=4 and the following values:-
+    i	1	2	3	4
+
+    gi	50	10	15	3
+
+    di	2	1	2	7
+
+36. Given two sequences X = <x1, x2, … xm > and Y = <y1, y2, … yn >. Find the longest common subsequence (LCS) of X and Y using dynamic programming. Also write a subroutine to print the longest common subsequence (LCS). 
+
+37. A sequence of stack operation is performed a stack whose size never exceeds K. After every K operations, a copy of the entire stack is made for backup purpose. Show that cost of n stack operations, including copying the stack is 0(n) by assigning suitable amortized cost to various stack operations?   
+
+38. What is “greedy algorithm “? Write its pseudo code prove that fractional Knapsack problem has a greedy-choice property.
+
+39. Explain dynamic programming. Apply it on matrix Chain-multiplication problem.
+
+40. What is the sum of subsets problem? Let w={5,7,10,12,15,18,20} and m=35. find all possible subsets of w that sum to m using recursive black tracking algorithm for it. Draw the portion of the state-space tree that is generated.
+
+41. When and how Dynamic Programming approach is applicable?  Discuss matrix chain multiplication with reference to Dynamic Programming Technique and also apply it on the following arrays.
+
+42.	Write a short note on dynamic programming.
+
+43.	Discuss the back tracking problem solving approach.
+
+44.	Explain what do you understand by “assembly line scheduling”. Describe a method of solving the problem using Dynamic Programming Technique.
+
+45.	What are the different Greedy Criterion? Explain.  Consider the five items along with their respective weight and values:
+       I={I1,I2,I3,I4,I5}
+W={5,10,20,30,40}
+V={30,20,100,90,160}
+ The knapsack has capacity w=60. Find the solution of the problem using the concept of fractional            knapsack.	
+
+46. Solve the shortest path problems using Dijkastra’s algorithm. Count the number of distance updates.
+
+47. Write an algorithm to find all-pair shortest path. Derive its complexity.
+
+48. Give a linear time algorithm along with proof of correctness to find strongly connected components of a graph?
+
+49. We would like to solve, as efficiently as possible, the single source shortest path problems in each of the following graphs. For each graph, state which algorithm would be best to use, and give its running time :
+
+a. A weighted directed acyclic graph.
+b. A weight directed graph where all edge weights are non-negative; the graph contains a directed cycle. 
+c. A weighted directed graph in which some, but not all, of the edges have negative weights, the graph contains a directed cycle. 
+
+50.  We are given a flow f in the following flow network. On each edge, the label fu represents the flow f and the capacity c on the edge:
+a. What if the value /f / of the flow?
+b. Draw the residual graph corresponding to f.
+   (iii_     is the flow f maximum? IF yes, state why. If not, show how to obtained
+               a larger flow.
+51. What are single source shortest paths? Write down Dijekstra‘s algorithm  for it.
+
+52. Give an algorithm that determines whether or not a given undirected graph G = (V,O)  is O(v) time.
+
+53.  Explain the Floyd Warshall algorithm with example.
+
+54. Write Rabin-Karp algorithm. For string matching working modulo q = 11, how many spurious hits does the Rabin-Karp matcher encounts in the text T = 3141592653589793  when looking for pattern P = 26?
+
+55. Define NP, NP hard and NP complete. Give example of each. 
+
+
+56. Discuss the relationship between the class P.NP, NP-complex and NP-hard problems with suitable example of each class.
+
+57. Give the randomized version of Quick sort. Analysis it for finding the expected running time.
+
+58. Discuss KMP string matching algorithm and also find the prefix function for the following pattern: 
+A b a b b b a b a a
+
+59.  Explain Boyer-Moore algorithm for string matching for Text:
+		“a b c a b c a b b a b c a “pattern a b c .
+  Compute worst time complexity of this algorithm.
+
+60.  Explain and write the naïve-string string matching algorithm:
+	Suppose the given pattern P=a a b and given text T=a c a a b c 
+   apply native-string matching algorithm on above Pattern (P) and  text (T) to      
+   find the number of occurrence of P in T.
+
+61. Show that Hamiltonian cycle is in NP class of problem.
+
+62. Solve the following recurrences. Assume. 
+      T (1) = and T (3) = 1
+      (i) T(n) = T (n/2) + T(n/3) + n
+      (ii) T(n) = 3T (n1/3) + log3 
+
+63.  What is time complexity of counting sort? Sort 1 9 3 3 4 5 6 7 7 8 by counting sort.
+
+64. What do you mean by Asymptotic Notation. Explain
+
+65. Explain the concept of partitioning of the set to be sorted using quick-sort  algorithm.
+
+66. Solve the following recurrences : 
+a. T(n) = T (α .n) + T((1 – α)n) + n0 < α < 1
+b. T(n) = T (9n/10) +n.
+
+67. Suppose that a node x is inserted into a red-black tree with RB-Insert and then immediately deleted with RB-Delete. Is the resulting red-black tree the same as the initial red-black tree? Justify your answer.
+
+68.   What is a red black tree. Explain its properties.
+
+69. Show that A red-black tree with n internal node has height at most 2 lg(n+1).What are the three different cases, when insert a node into a Red –Black Tree (RBT)? Explain with example.
+
+70.	Show the result of inserting the keys F, S, Q,K, C,L, H, T,V, W, M, R, N, P, A,       B,X, Y, D, Z, E in order into an empty B tree. Only draw the configurations of  the tree just before some node must split and also draw the final configuration.
+             Use t=4, where t is minimum degree of B Tree.
+71.	What do you understand by Binomial Heap ? How to merge two binomial heap?
+
+72. When and how Dynamic Programming approach is applicable? Discuss matrix chain
+    multiplication with reference to Dynamic Programming Technique and also apply it on the     
+    following arrays :
+    30 1 40 10 25
+
+73. Write a short note on dynamic programming.
+
+74.  Discuss the back tracking problem solving approach.
+
+
+75. Explain what do you understand by “assembly line scheduling”. Describe a method of solving the problem using Dynamic Programming Technique.
+
+76. What are the different Greedy Criterion? Explain.                                                                                                          Consider the five items along with their respective weight and values:                                            I={I1,I2,I3,I4,I5}	
+a. W={5,10,20,30,40}
+b. V={30,20,100,90,160}
+The knapsack has capacity w=60. Find the solution of the problem using the concept of fractional knapsack.	                                                       
+77. Give a dynamic programming solution for the subset sum problem. Analyze the  complexity of the algorithm.
+78. Solve the shortest path problems using Dijkotra’s algorithm. Count the number of distance updates. 
+79. What are single source shortest paths? Write down Dijekstra‘s algorithm  for it.
+
+80. Explain the Floyd Warshall algorithm with example.
+
+81. Explain and write the write the Bellman-ford algorithm. You are also required to find the running time of the algorithm.
+
+82. Show how prim’s algorithm can be implemented using heap . What  would be the time  complexity of the algorithm?
+
+83. Discuss KMP string matching algorithm and also find the prefix function for the following pattern: 
+A b a b b b a b a a
+84. Explain Boyer-Moore algorithm for string matching for Text:
+		“a b c a b c a b b a b c a “pattern a b c .
+  Compute worst time complexity of this algorithm.
+85. Explain and write the naïve-string string matching algorithm: 
+	        Suppose the given pattern P=a a b and given text T=a c a a b c 
+                       apply native-string matching algorithm on above Pattern (P) and  text (T)  to      
+                       find the number of occurrence of P in T.
+
+86. Show that Hamiltonian cycle is in NP class of problem.
+
+87. Write Rabin-Karp algorithm. For string matching working modulo q = 11, how many spurious hits does the Rabin-Karp matcher encounts in the text T = 3141592653589793  when looking for pattern P = 26?
+
+88.  Give asymptotic upper & lower bound for T(n) in each of the following recurrences for n.
+(i) T(n) = 16T
+(ii) T(n) = 7T
+(iii) T(n) = 2T
+(iv) T(n) = T
+(v) T(n) = T
+
+89.  Argue that the solution of the recurrence T(n) = Tis Ω(n log n) by using the recursion tree method.
+90.    Solve the following recurrence using master’s method  T(n) = 8T
+91. Solve the recurrence by substitution method T(n) = T
+92. Illustrate the operation of  HEAP-SORT on the array A = 
+
+93. Illustrate the operation of  HEAP-EXTRACT-MAX on the array A = .
+
+94. Illustrate the operation of  HEAP-INCRESE-KEY (A, 9, 15) on the array A = .
+
+95. llustrate the operation of MAX-HEAP-INSERT (A, 10)  on the array A = .
+
+96. Sort the following array using HEAP-SORT algorithm  on the array A = .
+
+97. Illustrate the operation of MAX-HEAP-INSERT (A, 11)  on the array A = .
+98. Give an non-recursive algorithm to find out the largest element in a list of n numbers.
+99. What is meant by divide &conquer?
+100. Define Dynamic programming.
+101. Define all-pair shortest path problem.
+102. What is 0/1 Knapsack.
+103. What is the procedure to solve traveling Salesman problem.
+104. List out the advantages of Dynamic programming.
+105. Solve the all-pairs shorest path problem for the digraph with the weight matrix given below.
+ 	A	B	C	D
+A	0	∞	∞	3
+
+B	2	0	∞	∞
+
+C	∞	7	0	1
+
+D	6	∞	∞	0
+
+
+
+
+
+
+106. Solve the following instance of the single source shortest path problem with vertex ‘a’ as the source.  
+		
+				4
+	
+	3
+	2	5	6
+
+	7
+		4
+	write the algorithm for the above problem.
+106. Explain the 0/1 knapsack with an algorithm.
+107. Describe the Traveling salesman problem & discuss how to solve it using
+Dynamic Programming.
+ 
+BACKTRACKING
+PART-A(2 MARKS)
+108. What is m-colorability optimization?
+109. Define sum of subsets problem.
+110. What is chromatic numbers?
+111. Define Backtracking.
+112. What are the applications of backtracking?
+113. Define n-queens problem.
+114. Define Hamiltonian Circuit problem in an undirected Graph.
+PART-B
+115. What is Backtracking? Explain in detail.
+116. Explain Subset-sum Problem & Discuss the possible solution strategies using backtracking.
+117. Discuss the use of greedy method in solving knapsack problem and subset sum problem.
+118. Write short notes on
+(a) Graph coloring
+(b) (b) 8-Queens problem
+119. Apply Backtracking technique to solve the following instance of the subset sum problems. s=(1,3,4,5) & d=11
+120. Using Backtracking enumerate how can you solve the following problems
+(a) 8-queens problem
+(b) Hamiltonian circuit problem
+
+
+
+TRAVERSALS, BRANCH AND BOUND
+PART-A (2 MARKS)
+
+121. Define spanning tree? Discuss the design steps in prims algorithm to construct
+Minimum spanning tree with example.
+122. Define spanning tree? Discuss the design steps in kruskal algorithm to construct
+Minimum spanning tree with example.
+123. Give a suitable example and explain the birth first search and depth first search
+Algorithm.
+124. What is branch and bound? Explain detail.
+125. Discuss the solution for knapsack problem using branch bound techniques.(
+
+
+

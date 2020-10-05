@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_2000.engineer_way_02.Frag_Gadget">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Gadget Related FAQs  :-"
+                android:textColor="#f00"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80808080"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/Gadget_ques_01"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.27"
+                android:text="@string/Gadget_ans_01"
+                android:textColor="#000"
+                android:textSize="15sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80808080"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/Gadget_ques_02"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.27"
+                android:text="@string/Gadget_ans_02"
+                android:textColor="#000"
+                android:textSize="15sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80808080"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/Gadget_ques_03"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.27"
+                android:text="@string/Gadget_ans_03"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

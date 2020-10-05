@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/animation"
+            android:title="Syllabus B.Tech" />
+        <item
+            android:id="@+id/nav_prev_year"
+            android:icon="@drawable/book_open_page_variant"
+            android:title="Prev Yr. Question Papers" />
+        <item
+            android:id="@+id/nav_imp_ques"
+            android:icon="@drawable/library"
+            android:title="Important Sem. Questions" />
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/lightbulb_on_outline"
+            android:title="Project Ideas" />
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/image_filter_drama"
+            android:title="New Technologies" />
+
+        <item
+            android:id="@+id/nav_SciNews"
+            android:icon="@drawable/internet_explorer"
+            android:title="Science News" />
+
+    </group>
+
+    <item android:title="Query">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_gadget"
+                android:icon="@drawable/desktop_mac"
+                android:title="Gadget Queries" />
+            <item
+                android:id="@+id/nav_scholo"
+                android:icon="@drawable/school"
+                android:title="Scholarship related FAQs" />
+            <item
+                android:id="@+id/nav_bank"
+                android:icon="@drawable/square_inc_cash"
+                android:title="Banking related FAQs" />
+            <item
+                android:id="@+id/nav_learn"
+                android:icon="@drawable/worker"
+                android:title="What To Learn When?" />
+            <item
+                android:id="@+id/nav_references"
+                android:icon="@drawable/sticker_emoji"
+                android:title="References" />
+        </menu>
+    </item>
+
+</menu>

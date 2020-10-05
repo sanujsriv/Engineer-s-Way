@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="#0f9"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_2000.engineer_way_02.Frag_Syll">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+       android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        />
+</LinearLayout>
